@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<XMLConfigSettings>
+  <Radio>
+    <Playing>Reprodukcija</Playing>
+    <Connecting>Povezovanje...</Connecting>
+    <Stopping>Zaustavljanje...</Stopping>
+    <Stopped>Zaustavljeno.</Stopped>
+    <Init>Zagon...</Init>
+    <InitError>Ni mogoče zagnati.</InitError>
+    <InitDone>Zagon je končan.</InitDone>
+    <ConnectError>Ni se mogoče povezati.</ConnectError>
+    <Buffering>Polnjenje predpomnilnika...</Buffering>
+    <PlayingError>Napaka v povezavi.</PlayingError>
+    <Buffer>Predpomnilnik: %d%%</Buffer>
+  </Radio>
+  <MainWindow>
+    <Exit>Izhod</Exit>
+    <Play>Reprodukcija</Play>
+    <Stop>Zaustavitev</Stop>
+    <Back>Nazaj</Back>
+    <Mute>Izključi ton</Mute>
+    <Recording>Snemanje</Recording>
+    <StationsNumber>Najdene postaje: %d</StationsNumber>
+    <About>O programu</About>
+    <Language>Jezik</Language>
+    <Clipboard>Kopiraj URL v odložišče</Clipboard>
+    <Unmute>Vključi ton</Unmute>
+    <StopRecording>Zaustavi snemanje</StopRecording>
+    <Forward>Naprej</Forward>
+    <Expand>Povečaj/Zmanjšaj</Expand>
+    <OnTop>Vedno na vrhu</OnTop>
+    <Hide>Skrij</Hide>
+    <WindowMenu>Okno</WindowMenu>
+    <ClipboardMenu>Meni Odložišča</ClipboardMenu>
+    <PlayFromClipboard>Reprodukcija URL-a iz odložišča</PlayFromClipboard>
+  <Layout>LEFT-TO-RIGHT</Layout></MainWindow>
+  <StationDlg>
+    <CreateNewTitle>Ustvari novo postajo</CreateNewTitle>
+    <Title>* Ime:</Title>
+    <WebPage>Web stran:</WebPage>
+    <Details>Detajli</Details>
+    <AddNewStation>Dodaj novo postajo</AddNewStation>
+    <DeleteStation>Izbris postaje</DeleteStation>
+    <ShouldSelect>Prosimo, da izberete radijsko postajo.</ShouldSelect>
+    <CannotChange>Ne morete spreminjati predefiniranih postaj.</CannotChange>
+    <QuestionDelete>Ali ste prepričani,da izbrišete postajo "%s"?</QuestionDelete>
+    <CannotDelete>Ne morete izbrisati predefiniranih postaj.</CannotDelete>
+    <RemoveFilter>Odstrani filter</RemoveFilter>
+    <ShowOnlyMyStations>Prikaži samo moje postaje</ShowOnlyMyStations>
+    <ColumnTitle>Ime</ColumnTitle>
+    <ColumnCountry>Država</ColumnCountry>
+    <ColumnGenre>Žanr</ColumnGenre>
+    <ColumnLanguage>Jezik</ColumnLanguage>
+    <Genre>Žanr:</Genre>
+    <County>Država:</County>
+    <SourceURL>URL vira:</SourceURL>
+    <SameName>Postaja s tem imenom že obstaja. Prosimo, da izberete drugo ime.</SameName>
+    <SaveError>Prišlo je do problema pri ustvarjanju nove postaje. Želite ponovno poskusiti?</SaveError>
+    <ChooseSource>Izberite vir</ChooseSource>
+  <StationDetailsTitle>Station details</StationDetailsTitle><Description>Opis:</Description></StationDlg>
+  <Message>
+    <StopRecording>Snemanje je v teku. Ali želite ustaviti snemanje?</StopRecording>
+    <CannotStartRecording>Ni mogoče snemati. Po vsej verjetnosti ni dovolj prostora, problem z mapo ali s kodirnikom.</CannotStartRecording>
+    <Version>%s, verzija %s %s</Version>
+    <NewVersion>Nova verzija %s je dostopna!</NewVersion>
+    <NewVersionLoad>Pritisnite tu za prevzem in namestite novo verzijo.</NewVersionLoad>
+    <LatestVersion>Imate najnovejšo verzijo!</LatestVersion>
+    <CheckingVersion>Preverjam obstoj nove verzije...</CheckingVersion>
+    <SkinCreatedBy>Preobleko je naredil</SkinCreatedBy>
+    <TranslatedBy>V slovenščino prevedel Stane Accetto</TranslatedBy>
+  <InstallSkin>Želite namestiti preobleko?</InstallSkin><InstallSkinOverwrite>Nekatere datoteke preobleke že obstojajo. Ali jih želite prepisati?</InstallSkinOverwrite><InstallSkinEroor>Ne morem namestiti preobleke. Problem zapisa v mapo preoblek.</InstallSkinEroor><DatabaseUpdated>Stations database updated.</DatabaseUpdated></Message>
+  <Properties>
+    <Title>Lastnosti</Title>
+    <General>
+      <Title>Splošno</Title>
+      <AutoStart>Zagon skupno z Windowsi</AutoStart>
+      <AutoPlay>Avtomatska reprodukcija ob zagonu</AutoPlay>
+      <Crossfade>Prehod (crossfade) med postajami</Crossfade>
+      <CheckUpdate>Preverjanje obstoja nove verzije</CheckUpdate>
+      <Normalization>Normalizacija nivoja zvoka</Normalization>
+      <ClearSearch>Počisti zgodovino iskanja</ClearSearch>
+      <SearchCleared>Zgodovina iskanja je odstranjena.</SearchCleared>
+      <GlobalHotkeys>Omogoči globalne bližnjice</GlobalHotkeys>
+    <MinimizeToTray>Minimiziraj okno v sistemski trak</MinimizeToTray><ShowNotifications>Show notifications in system tray</ShowNotifications></General>
+    <Advanced>
+      <Title>Napredno</Title>
+      <Device>Avdio naprava</Device>
+      <DefaultDevice>Standardna avdio naprava</DefaultDevice>
+      <DeviceChange>Spremembe bodo aktivirane ob spremembi postaje</DeviceChange>
+      <AlwaysShowtitle>Vedno prikaži ime postaje v naslovnem oknu</AlwaysShowtitle>
+      <SelectSkin>Preobleka:</SelectSkin>
+    <SkinPage>Preobleke</SkinPage><PictureArt>Prikaz slik glede na pesmi</PictureArt><SortFavorites>Sort favorites alphabetically</SortFavorites><GroupFavorites>Group favorites</GroupFavorites><MuteOnLock>Mute when user's session is locked</MuteOnLock></Advanced>
+    <Rec>
+      <Title>Snemanje</Title>
+      <Folder>Mapa snemanja:</Folder>
+      <FolderTitle>Mapa za snemanje</FolderTitle>
+      <FolderMessage>Prosimo, da izberete mapo v katero želite shraniti posnetke.</FolderMessage>
+      <Bitrate>Bitrate</Bitrate>
+      <SplitByTracks>Razdelitev posnetkov po stezah(pesmih)</SplitByTracks>
+      <AutoBitrate>avtomatsko</AutoBitrate>
+      <DontWriteExist>Ne snemaj pesmi, če že obstoja z istim imenom</DontWriteExist>
+      <OpenFolder>Odpri mapo</OpenFolder>
+      <SplitBySize>Razvrsti snemanja po velikosti</SplitBySize>
+    <Prebuffering>Snemanje pesmi v celoti od začetka (večja poraba CPU )</Prebuffering><SkipAds>Don't record advertisements (less than 90 sec)</SkipAds></Rec>
+  <Hotkeys><Title>Hotkeys</Title><Restore>Restore</Restore><RestoreQuestion>Do you realy want to restore all the hotkeys to its defaults?</RestoreQuestion><Start>Start/Stop Playing:</Start><Mute>Mute/Unmute:</Mute><Rec>Start/Stop Recording:</Rec><Hide>Hide/Show Window:</Hide><VolumeUp>Adjust Volume Up:</VolumeUp><VolumeDown>Adjust Volume Down:</VolumeDown><Prev>Previous Station:</Prev><Next>Next Station:</Next></Hotkeys><Audio><Title>Audio</Title></Audio><Network><Title>Network</Title><ProxyAuth>Use proxy authorization</ProxyAuth><UseProxy>Use this proxy</UseProxy><ProxyGroup>Proxy settings</ProxyGroup><ProxyServer>Server:</ProxyServer><ProxyPort>Port:</ProxyPort><ProxyPass>Password:</ProxyPass><ProxyName>Name:</ProxyName></Network></Properties>
+  <Favorites>
+    <Title>Priljubljene</Title>
+    <Add>Dodaj med priljubljene</Add>
+    <Remove>Odstrani iz priljubljenih</Remove>
+    <Empty>Še nimate izbranih postaj</Empty>
+    <ShouldSelect>Prosimo, da najprej izberete radijsko postajo.</ShouldSelect>
+    <TooMany>Prosimo, da najprej izbrišete neko postavko.</TooMany>
+    <AlreadyExist>Že obstaja!</AlreadyExist>
+  <MoveUp>Premik izbrane priljubljene navzgor</MoveUp></Favorites>
+  <EQUALIZER>
+    <Title>Ekvilajzer</Title>
+    <Off>Izključeno</Off>
+    <Jazz>Jazz</Jazz>
+    <Pop>Pop</Pop>
+    <Rock>Rock</Rock>
+    <Classic>Klasično</Classic>
+  </EQUALIZER>
+<PictureArt>
+<Open>Odpri</Open>
+<Close>Zapri</Close>
+<Disable>Onemogoči</Disable>
+</PictureArt>
+<SleepTimer><Off>Sleep timer off</Off><Sleep5>Sleep in 5 min</Sleep5><Sleep10>Sleep in 10 min</Sleep10><Sleep15>Sleep in 15 min</Sleep15><Sleep20>Sleep in 20 min</Sleep20><Sleep30>Sleep in 30 min</Sleep30><Sleep60>Sleep in 60 min</Sleep60><Sleep90>Sleep in 90 min</Sleep90><Sleep120>Sleep in 120 min</Sleep120><Title>Sleep timer</Title></SleepTimer></XMLConfigSettings>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<XMLConfigSettings>
+  <Radio>
+    <Playing>Репродукција.</Playing>
+    <Connecting>Повезивање...</Connecting>
+    <Stopping>Заустављање...</Stopping>
+    <Stopped>Заустављено.</Stopped>
+    <Init>Покретање...</Init>
+    <InitError>Није могуће покренути.</InitError>
+    <InitDone>Покретање завршено.</InitDone>
+    <ConnectError>Није могуће повезати.</ConnectError>
+    <Buffering>Пуњење спремника...</Buffering>
+    <PlayingError>Грешка у вези.</PlayingError>
+    <Buffer>Спремник: %d%%</Buffer>
+  </Radio>
+  <MainWindow>
+    <Exit>Излаз</Exit>
+    <Play>Репродукција</Play>
+    <Stop>Заустави</Stop>
+    <Back>Назад</Back>
+    <Mute>Искључи тон</Mute>
+    <Recording>Снимање</Recording>
+    <StationsNumber>Пронађене станице: %d</StationsNumber>
+    <About>О програму</About>
+    <Language>Језик</Language>
+    <Clipboard>Копирај URL у међумеморију</Clipboard>
+    <Unmute>Укључи тон</Unmute>
+    <StopRecording>Заустави снимање</StopRecording>
+    <Forward>Напред</Forward>
+    <Expand>Повећај/Смањи</Expand>
+    <OnTop>Увек на врху</OnTop>
+    <Hide>Сакриј</Hide>
+    <WindowMenu>Прозор</WindowMenu>
+    <ClipboardMenu>Међумеморија</ClipboardMenu>
+    <PlayFromClipboard>Репродукција URLа из међумеморије</PlayFromClipboard>
+  </MainWindow>
+  <StationDlg>
+    <CreateNewTitle>Направи нову станицу</CreateNewTitle>
+    <Title>* Назив:</Title>
+    <WebPage>Web страница:</WebPage>
+    <Details>Детаљи</Details>
+    <AddNewStation>Додај нову станицу</AddNewStation>
+    <DeleteStation>Обриши станицу</DeleteStation>
+    <ShouldSelect>Молимо вас да одаберете радио станицу.</ShouldSelect>
+    <CannotChange>Не можете мењати предефинисане станице.</CannotChange>
+    <QuestionDelete>Јесте ли сугурни да желите обрисати станицу "%s"?</QuestionDelete>
+    <CannotDelete>Не можете обрисати предефинисане станице.</CannotDelete>
+    <RemoveFilter>Уклони филтер</RemoveFilter>
+    <ShowOnlyMyStations>Прикажи само моје станице</ShowOnlyMyStations>
+    <ColumnTitle>Назив</ColumnTitle>
+    <ColumnCountry>Земља</ColumnCountry>
+    <ColumnGenre>Жанр</ColumnGenre>
+    <ColumnLanguage>Језик</ColumnLanguage>
+    <Genre>Жанр:</Genre>
+    <County>Земља:</County>
+    <SourceURL>URL извора:</SourceURL>
+    <SameName>Већ постоји станица са истим именом. Молимо вас да одаберете друго име</SameName>
+    <SaveError>Дошло је до проблема приликом прављења нове станице. Да ли желите покушати поново?</SaveError>
+    <ChooseSource>Изаберите извор</ChooseSource>
+    <StationDetailsTitle>Детаљи станице</StationDetailsTitle>
+    <Description>Опис:</Description>
+  </StationDlg>
+  <Message>
+    <StopRecording>Снимање је у току. Да ли желите зауставити снимање?</StopRecording>
+    <CannotStartRecording>Није могуће покренути снимање. Највероватније нема довољно простора или постоји проблем са директоријумом или енкодером.</CannotStartRecording>
+    <Version>%s, верзија %s %s</Version>
+    <NewVersion>Нова верзија %s је доступна!</NewVersion>
+    <NewVersionLoad>Притисните овде да преузмете и инсталирате нову верзију.</NewVersionLoad>
+    <LatestVersion>Имате најновију верзију!</LatestVersion>
+    <CheckingVersion>Проверавам има ли нових верзија...</CheckingVersion>
+    <SkinCreatedBy>Skin направио</SkinCreatedBy>
+    <TranslatedBy>На Србски језик превео ZPop</TranslatedBy>
+    <InstallSkin>Да ли желите да инсталирате skin?</InstallSkin>
+    <InstallSkinOverwrite>Неки делови skin-а већ постоје. Да ли желите да их препишете?</InstallSkinOverwrite>
+    <InstallSkinEroor>Није могуће инсталирати skin. Појавио се проблем при упису skin-а у директоријум.</InstallSkinEroor>
+  </Message>
+  <Properties>
+    <Title>Опције</Title>
+    <General>
+      <Title>Опште</Title>
+      <AutoStart>Покрени заједно са Windowsom</AutoStart>
+      <AutoPlay>Аутоматска репродукција након покретања</AutoPlay>
+      <Crossfade>Crossfade између станица</Crossfade>
+      <CheckUpdate>Проверавај има ли нових верзија</CheckUpdate>
+      <Normalization>Нормализација нивоа звука</Normalization>
+      <ClearSearch>Очисти историју претраге</ClearSearch>
+      <SearchCleared>Историја претраге успешно очишћена.</SearchCleared>
+      <GlobalHotkeys>Омогући глобалне пречице</GlobalHotkeys>
+      <MinimizeToTray>Минимизирај прозор у system tray</MinimizeToTray>
+	</General>
+    <Advanced>
+      <Title>Напредно</Title>
+      <Device>Звучни уређај</Device>
+      <DefaultDevice>Стандардни звучни уређај</DefaultDevice>
+      <DeviceChange>Промене ће бити активиране када промените станицу</DeviceChange>
+      <AlwaysShowtitle>Увек приказуј назив станице у наслову прозора</AlwaysShowtitle>
+      <SelectSkin>Skin:</SelectSkin>
+      <SkinPage>Skins</SkinPage>
+	  <PictureArt>Прикажи слике повезане са песмом</PictureArt>
+	  <SortFavorites>Сортирај омиљене по абецеди</SortFavorites>
+	  <GroupFavorites>Групе омињених</GroupFavorites>
+	</Advanced>
+    <Rec>
+      <Title>Снимање</Title>
+      <Folder>Директоријум за снимања:</Folder>
+      <FolderTitle>Директоријум за снимања</FolderTitle>
+      <FolderMessage>Молимо вас да одаберете директоријум у који ћете сачувати сва ваша снимања.</FolderMessage>
+      <Bitrate>Bitrate</Bitrate>
+      <SplitByTracks>Подели снимања по тракама</SplitByTracks>
+      <AutoBitrate>Аутоматски</AutoBitrate>
+      <DontWriteExist>Не снимај траку ако већ постоји једна са истим именом</DontWriteExist>
+      <OpenFolder>Отвори директоријум</OpenFolder>
+      <SplitBySize>Подели снимања по величини</SplitBySize>
+      <Prebuffering>Сними целу песму од почетка (веће оптерећење CPU)</Prebuffering>
+	  <SkipAds>Не снимај рекламе (мање од 90 сек)</SkipAds>
+	</Rec>
+    <Hotkeys>
+	  <Title>Пречице</Title>
+      <Restore>Врати</Restore>
+      <RestoreQuestion>Да ли заиста желиш вратити све пречице на фабричке поставке?</RestoreQuestion>
+      <Start>Покрени/Заустави Репродукцију:</Start>
+      <Mute>Искључи Тон/Укључи Тон:</Mute>
+      <Rec>Покрени/Заустави Снимање:</Rec>
+      <Hide>Сакриј/Прикажи Прозор:</Hide>
+      <VolumeUp>Појачај Тон:</VolumeUp>
+      <VolumeDown>Утишај Тон:</VolumeDown>
+      <Prev>Предходна Станица:</Prev>
+      <Next>Следећа Станица:</Next>
+    </Hotkeys>
+    <Audio>
+      <Title>Аудио</Title>
+    </Audio>
+    <Network>
+      <Title>Мрежа</Title>
+      <ProxyAuth>Користи proxy ауторизацију</ProxyAuth>
+      <UseProxy>Користи proxy</UseProxy>
+      <ProxyGroup>Proxy подешавања</ProxyGroup>
+      <ProxyServer>Сервер:</ProxyServer>
+      <ProxyPort>Порт:</ProxyPort>
+      <ProxyPass>Лозинка:</ProxyPass>
+      <ProxyName>Име:</ProxyName>
+    </Network>
+  </Properties>
+  <Favorites>
+    <Title>Омиљено</Title>
+    <Add>Додај у омиљене</Add>
+    <Remove>Уклони из омиљених</Remove>
+    <Empty>Још нема изабраних станица</Empty>
+    <ShouldSelect>Молимо вас да прво изаберете радио станицу.</ShouldSelect>
+    <TooMany>Молимо вас да прво уклоните неку ставку.</TooMany>
+    <AlreadyExist>Већ постоји!</AlreadyExist>
+  <MoveUp>Помери означену горе</MoveUp></Favorites>
+  <EQUALIZER>
+    <Title>Еквилајзер</Title>
+    <Off>Искључено</Off>
+    <Jazz>Jazz</Jazz>
+    <Pop>Pop</Pop>
+    <Rock>Rock</Rock>
+    <Classic>Classic</Classic>
+  </EQUALIZER>
+  <PictureArt>
+    <Open>Отвори</Open>
+    <Close>Затвори</Close>
+    <Disable>Онемогући</Disable>
+  </PictureArt>
+</XMLConfigSettings>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<XMLConfigSettings>
+  <Radio>
+    <Playing>Đang phát</Playing>
+    <Connecting>Đang kết nối...</Connecting>
+    <Stopping>Đang dừng phát...</Stopping>
+    <Stopped>Đã dừng phát.</Stopped>
+    <Init>Đang khởi tạo...</Init>
+    <InitError>Không thể khởi tạo.</InitError>
+    <InitDone>Khởi tạo thành công.</InitDone>
+    <ConnectError>Kết nối tới kênh radio thất bại.</ConnectError>
+    <Buffering>Đang đệm...</Buffering>
+    <PlayingError>Kết nối lỗi.</PlayingError>
+    <Buffer>Đệm: %d%%</Buffer>
+  </Radio>
+  <MainWindow>
+    <Exit>Thoát</Exit>
+    <Play>Phát</Play>
+    <Stop>Dừng</Stop>
+    <Back>Phát radio trước</Back>
+    <Mute>Tắt âm</Mute>
+    <Recording>Ghi âm Radio</Recording>
+    <StationsNumber>Số kênh radio: %d</StationsNumber>
+    <About>Giới thiệu</About>
+    <Language>Ngôn ngữ/Language</Language>
+    <Clipboard>Chép URL tới Clipboard</Clipboard>
+    <Unmute>Bỏ tắt âm</Unmute>
+    <StopRecording>Dừng ghi âm</StopRecording>
+    <Forward>Phát radio kế</Forward>
+    <Expand>Mở rộng/Thu nhỏ</Expand>
+    <OnTop>Luôn trên cùng</OnTop>
+    <Hide>Ẩn</Hide>
+    <WindowMenu>Cửa sổ</WindowMenu>
+    <ClipboardMenu>Clipboard</ClipboardMenu>
+    <PlayFromClipboard>Phát URL từ Clipboard</PlayFromClipboard>
+  </MainWindow>
+  <StationDlg>
+    <CreateNewTitle>Tạo kênh radio mới</CreateNewTitle>
+    <Title>* Tên kênh:</Title>
+    <WebPage>Trang web:</WebPage>
+    <Details>Chi tiết</Details>
+    <AddNewStation>Thêm kênh radio mới</AddNewStation>
+    <DeleteStation>Xóa kênh radio</DeleteStation>
+    <ShouldSelect>Vui lòng chọn một kênh radio.</ShouldSelect>
+    <CannotChange>Bạn không thể sửa kênh radio đã được định nghĩa sẵn.</CannotChange>
+    <QuestionDelete>Bạn có chắc muốn xóa kênh: "%s"?</QuestionDelete>
+    <CannotDelete>Bạn không thể xóa kênh radio đã được định nghĩa sẵn.</CannotDelete>
+    <RemoveFilter>Xóa bộ lọc</RemoveFilter>
+    <ShowOnlyMyStations>Chỉ hiện kênh radio của tôi</ShowOnlyMyStations>
+    <ColumnTitle>Tên kênh</ColumnTitle>
+    <ColumnCountry>Quốc gia</ColumnCountry>
+    <ColumnGenre>Thể loại</ColumnGenre>
+    <ColumnLanguage>Ngôn ngữ</ColumnLanguage>
+    <Genre>Thể loại:</Genre>
+    <County>Quốc gia:</County>
+    <SourceURL>URL kênh Radio:</SourceURL>
+    <SameName>Có một tên kênh giống như vậy đã tồn tại. Vui lòng chọn tên khác.</SameName>
+    <SaveError>Có sự cố đã xảy ra khi tạo kênh radio mới. Bạn có muốn thử lại?</SaveError>
+    <ChooseSource>Chọn một nguồn</ChooseSource>
+  </StationDlg>
+  <Message>
+    <StopRecording>Đang ghi âm. Bạn có muốn dừng ghi âm?</StopRecording>
+    <CannotStartRecording>Không thể bắt đầu ghi âm. Có thể là do không đủ ổ cứng hoặc có vấn đề với thư mục dành cho ghi âm hoặc vấn đề với bộ mã hóa.</CannotStartRecording>
+    <Version>%s, phiên bản %s %s</Version>
+    <NewVersion>Phiên bản mới %s đã có!</NewVersion>
+    <NewVersionLoad>Click vô đây để tải xuống và cài đặt phiên bản mới nhất.</NewVersionLoad>
+    <LatestVersion>Bạn đang sử dụng phiên bản mới nhất!</LatestVersion>
+    <CheckingVersion>Đang kiểm tra phiên bản mới...</CheckingVersion>
+  <SkinCreatedBy>Skin created by</SkinCreatedBy><TranslatedBy>Translated by unknown author</TranslatedBy></Message>
+  <Properties>
+    <Title>Tùy chọn</Title>
+    <General>
+      <Title>Tổng quan</Title>
+      <AutoStart>Khởi động cùng Windows</AutoStart>
+      <AutoPlay>Tự động phát khi khởi động</AutoPlay>
+      <Crossfade>Hiệu ứng tắt dần khi chuyển kênh</Crossfade>
+      <CheckUpdate>Kiểm tra phiên bản mới</CheckUpdate>
+      <Normalization>Mức âm lượng bình thường</Normalization>
+      <ClearSearch>Xóa lịch sử tìm kiếm</ClearSearch>
+      <SearchCleared>Đã xóa sạch lịch sử tìm kiếm.</SearchCleared>
+      <GlobalHotkeys>Kích hoạt Phím tắt</GlobalHotkeys>
+    </General>
+    <Advanced>
+      <Title>Nâng cao</Title>
+      <Device>Thiết bị âm thanh:</Device>
+      <DefaultDevice>Thiết bị âm thanh chuẩn</DefaultDevice>
+      <DeviceChange>Thay đổi sẽ được áp dụng ở lần thay đổi kênh radio kế tiếp</DeviceChange>
+      <AlwaysShowtitle>Luôn hiện tên kênh radio trên tiêu đề của cửa sổ RadioSure</AlwaysShowtitle>
+    <SelectSkin>Skin:</SelectSkin></Advanced>
+    <Rec>
+      <Title>Ghi âm</Title>
+      <Folder>Thư mục cho các bản ghi âm:</Folder>
+      <FolderTitle>Thư mục cho bản ghi âm</FolderTitle>
+      <FolderMessage>Vui lòng chọn thư mục chứa các bản ghi âm.</FolderMessage>
+      <Bitrate>Bitrate</Bitrate>
+      <SplitByTracks>Chia các bản ghi âm bởi các track.</SplitByTracks>
+      <AutoBitrate>tự động</AutoBitrate>
+      <DontWriteExist>Không ghi âm nếu tên track đã tồn tại.</DontWriteExist>
+      <OpenFolder>Mở Thư mục</OpenFolder>
+      <SplitBySize>Chia các bản ghi âm bởi kích thước.</SplitBySize>
+    </Rec>
+  </Properties>
+  <Favorites>
+    <Title>Ưa thích</Title>
+    <Add>Thêm vào ưa thích</Add>
+    <Remove>Xóa khỏi ưa thích</Remove>
+    <Empty>Chưa có kênh radio nào được chọn</Empty>
+    <ShouldSelect>Vui lòng chọn một kênh radio trước.</ShouldSelect>
+    <TooMany>Quá nhiều kênh được chọn. Vui lòng xóa một số kênh trước.</TooMany>
+    <AlreadyExist>Nó đã có sẳn rồi!</AlreadyExist>
+  </Favorites>
+  <EQUALIZER>
+    <Title>Bộ chỉnh âm</Title>
+    <Off>Tắt</Off>
+    <Jazz>Jazz</Jazz>
+    <Pop>Pop</Pop>
+    <Rock>Rock</Rock>
+    <Classic>Classic</Classic>
+  </EQUALIZER>
+</XMLConfigSettings>

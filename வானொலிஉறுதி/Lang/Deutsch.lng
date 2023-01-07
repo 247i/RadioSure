@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<XMLConfigSettings>
+  <Radio>
+    <Playing>Abspielen</Playing>
+    <Connecting>Verbinde...</Connecting>
+    <Stopping>beende...</Stopping>
+    <Stopped>Beendet !!</Stopped>
+    <Init>Initialisieren...</Init>
+    <InitError>Initialisierung fehlgeschlagen.</InitError>
+    <InitDone>Initialisierung abgeschlossen.</InitDone>
+    <ConnectError>Verbindung fehlgeschlagen.</ConnectError>
+    <Buffering>Puffer auffüllen...</Buffering>
+    <PlayingError>Verbindungsfehler.</PlayingError>
+    <Buffer>Puffer: %d%%</Buffer>
+  </Radio>
+  <MainWindow>
+    <Exit>Programm beenden</Exit>
+    <Play>Abspielen</Play>
+    <Stop>Stopp</Stop>
+    <Back>Zuletzt gehörte Sender</Back>
+    <Mute>Ton aus</Mute>
+    <Recording>Aufnahme</Recording>
+    <StationsNumber>Radiostationen: %d</StationsNumber>
+    <About>Über</About>
+    <Language>Sprache</Language>
+    <Clipboard>Senderadresse in die Zwischenablage kopieren</Clipboard>
+    <Unmute>Ton ein</Unmute>
+    <StopRecording>Aufnahme beenden</StopRecording>
+    <Forward>Nächster Sender(Historie)</Forward>
+    <Expand>Ausklappen/Zusammenklappen</Expand>
+    <OnTop>Immer im Vordergrund</OnTop>
+    <Hide>Minimieren</Hide>
+    <WindowMenu>Darstellung</WindowMenu>
+    <ClipboardMenu>Zwischenablage </ClipboardMenu>
+    <PlayFromClipboard>Senderadresse aus Zwischenablage abspielen</PlayFromClipboard>
+    <Layout>Links-nach-rechts</Layout>
+    <SingleTrackRecording>Einzelaufnahme des akt.Titels</SingleTrackRecording>
+    <TitleToClipboard>Titel in die Zwischenablage kopieren</TitleToClipboard>
+  </MainWindow>
+  <StationDlg>
+    <CreateNewTitle>Neuer Sender</CreateNewTitle>
+    <Title>Sender:</Title>
+    <WebPage>Webseite:</WebPage>
+	&gt;<Details>Details</Details><AddNewStation>Neuen Sender hinzufügen</AddNewStation><DeleteStation>Sender löschen</DeleteStation><ShouldSelect>Bitte Sender auswählen.</ShouldSelect><CannotChange>Vorgegebene Sender können nicht geändert werden.</CannotChange><QuestionDelete>Soll der Sender "%s" wirklich gelöscht werden?</QuestionDelete><CannotDelete>Vorgegebene Sender können nicht gelöscht werden.</CannotDelete><RemoveFilter>Filter entfernen</RemoveFilter><ShowOnlyMyStations>Nur meine Sender anzeigen</ShowOnlyMyStations><ColumnTitle>Stationsname</ColumnTitle><ColumnCountry>Land</ColumnCountry><ColumnGenre>Genre</ColumnGenre><ColumnLanguage>Sprache</ColumnLanguage><Genre>Genre:</Genre><County>Land:</County><SourceURL>Internetadresse:</SourceURL><SameName>Einen Sender mit diesem Namen gibt es schon. Bitte wähle einen anderen Namen.</SameName><SaveError>Beim Speichern ist ein Fehler aufgetreten. Noch einmal versuchen?</SaveError><ChooseSource>Bitte eine Quelle auswählen</ChooseSource><StationDetailsTitle>Station Details</StationDetailsTitle><Description>Beschreibung:</Description><SongsList>Gespielte Titel</SongsList></StationDlg>
+  <Message>
+    <StopRecording>Eine Aufnahme läuft, trotzdem beenden?</StopRecording>
+    <CannotStartRecording>Die Aufnahme kann nicht gestartet werden. Möglicherweise nicht genug Speicherplatz auf der Festplatte oder ein 
+Problem mit dem Ordner oder mit dem Encoder.</CannotStartRecording>
+    <Version>%s, Version %s %s</Version>
+    <NewVersion>Version %s von RadioSure ist verfügbar!</NewVersion>
+    <NewVersionLoad>Hier klicken um die neue Version herunterzuladen und zu installieren.</NewVersionLoad>
+    <LatestVersion>Dies ist bereits die aktuellste Version!</LatestVersion>
+    <CheckingVersion>Prüfe auf eine neue Version...</CheckingVersion>
+    <SkinCreatedBy>Skin erstellt von:</SkinCreatedBy>
+    <TranslatedBy>Übersetzung durch:Bweddi © V2.2.1036</TranslatedBy>
+    <InstallSkin>Soll Skin installiert werden?</InstallSkin>
+    <InstallSkinOverwrite>Einige Dateien des Skins sind bereits vorhanden. Sollen diese überschrieben werden?</InstallSkinOverwrite>
+    <InstallSkinEroor>Skin kann nicht installiert werden. Es gibt Probleme mit dem Skin Verzeichnis.</InstallSkinEroor>
+    <DatabaseUpdated>Stationsdaten wurden erneuert.</DatabaseUpdated>
+  </Message>
+  <Properties>
+    <Title>Einstellungen</Title>
+    <General>
+      <Title>Allgemein</Title>
+      <AutoStart>RadioSure zusammen mit Windows starten</AutoStart>
+      <AutoPlay>Wiedergabe bei Programmtart automatisch starten</AutoPlay>
+      <Crossfade>Bei Senderwechsel überblenden</Crossfade>
+      <CheckUpdate>Automatisch auf neue Version prüfen</CheckUpdate>
+      <Normalization>Lautstärke anpassen</Normalization>
+      <ClearSearch>Suchkriterien löschen</ClearSearch>
+      <SearchCleared>Suchkriterien erfolgreich gelöscht.</SearchCleared>
+      <GlobalHotkeys>Globale  Hotkeys aktivieren</GlobalHotkeys>
+      <MinimizeToTray>RadioSure in den Systemtray minimieren</MinimizeToTray>
+      <ShowNotifications>Radioinformationen im Systemtray anzeigen</ShowNotifications>
+    </General>
+    <Advanced>
+      <Title>Erweitert</Title>
+      <Device>Audiogerät</Device>
+      <DefaultDevice>Standard Audiogerät</DefaultDevice>
+      <DeviceChange>Änderungen werden beim nächsten Senderwechsel aktiv !</DeviceChange>
+      <AlwaysShowtitle>Sendername immer im Fenstertitel anzeigen</AlwaysShowtitle>
+      <SelectSkin>Gewähltes Skin:</SelectSkin>
+      <SkinPage>Skins</SkinPage>
+      <PictureArt>Bilder zu den Titeln anzeigen</PictureArt>
+      <SortFavorites>Favoriten alphabetisch sortieren</SortFavorites>
+      <GroupFavorites>Favoriten in Gruppen sortieren</GroupFavorites>
+      <MuteOnLock>Stummschaltung wenn Systemton abgeschaltet</MuteOnLock>
+      <OneInstance>Nur eine Instanz erlauben</OneInstance>
+      <SyncFavorites>Favoriten mit Datenbank abgleichen</SyncFavorites>
+    </Advanced>
+    <Rec>
+      <Title>Aufnahmen</Title>
+      <Folder>Verzeichnis für Aufnahmen:</Folder>
+      <FolderTitle>Verzeichnis für Aufnahmen</FolderTitle>
+      <FolderMessage>Bitte einen Ordner auswählen, in dem die Aufnahmen gespeichert werden.</FolderMessage>
+      <Bitrate>Bitrate</Bitrate>
+      <SplitByTracks>Aufnahmen in einzelne Titel aufteilen</SplitByTracks>
+      <AutoBitrate>auto</AutoBitrate>
+      <DontWriteExist>Keine Aufnahme wenn der Titel schon existiert</DontWriteExist>
+      <OpenFolder>Aufnahmedatei öffnen</OpenFolder>
+      <SplitBySize>Aufnahme nach Größe teilen</SplitBySize>
+      <Prebuffering>Titel vom Anfang an aufnehmen (höhere CPU-Auslastung)</Prebuffering>
+      <SkipAds>Keine Aufnahme von Titeln die kürzer als 90sec sind (Werbung)</SkipAds>
+      <DirectStreamRec>Direktaufnahme (für MP3 und AAC)</DirectStreamRec>
+      <Fading>Ein- und Ausblendung der Titel bei der Aufnahme</Fading>
+    </Rec>
+    <Audio>
+      <Title>Audio</Title>
+    </Audio>
+    <Network>
+      <Title>Netzwerk</Title>
+      <ProxyAuth>Proxy Authorisierung</ProxyAuth>
+      <UseProxy>Diesen Proxy benutzen</UseProxy>
+      <ProxyGroup>Proxy Einstellungen</ProxyGroup>
+      <ProxyServer>Server:</ProxyServer>
+      <ProxyPort>Port:</ProxyPort>
+      <ProxyPass>Password:</ProxyPass>
+      <ProxyName>Name:</ProxyName>
+    </Network>
+    <Hotkeys>
+      <Restore>Wiederherstellen</Restore>
+      <RestoreQuestion>Alle Hotkeys auf die Voreinstellungen zurücksetzen?</RestoreQuestion>
+      <Title>Hotkeys</Title>
+      <Start>Wiedergabe start/stopp:</Start>
+      <Mute>Ton ein/aus:</Mute>
+      <Rec>Aufnahme start/stopp:</Rec>
+      <Hide>RadioSure anzeigen/verbergen:</Hide>
+      <VolumeUp>Lautstärke lauter:</VolumeUp>
+      <VolumeDown>Lautstärke leiser:</VolumeDown>
+      <Prev>Vorherige Station:</Prev>
+      <Next>Nächste Station:</Next>
+    </Hotkeys>
+    <Skins>
+      <DropToInstall>Skin (gepackt) zum installieren hier hineinziehen.</DropToInstall>
+      <MoreSkins>Weitere Skins hier:</MoreSkins>
+    </Skins>
+    <Favorites>
+      <Export>Export</Export>
+      <Import>Import</Import>
+      <Delete>Alle löschen</Delete>
+      <DeleteQuestion>Sind Sie sicher alle Favoriten zu löschen?</DeleteQuestion>
+      <ImportedOk>Favoriten sind sicher importiert.</ImportedOk>
+      <ImportedError>Fehler beim importieren der Favoriten.</ImportedError>
+      <ExportedOk>Favoriten sind sicher exportiert.</ExportedOk>
+      <ExportedError>Fehler beim exportieren der Favoriten.</ExportedError>
+    </Favorites>
+  </Properties>
+  <Favorites>
+    <Title>Favoriten</Title>
+    <Add>Aktuelle Station zu den Favoriten hinzufügen</Add>
+    <Remove>Station aus den Favoriten löschen</Remove>
+    <Empty>Noch keine Sender hinzugefügt</Empty>
+    <ShouldSelect>Bitte zuerst einen Sender auswählen.</ShouldSelect>
+    <TooMany>Zu viele Favoriten. Bitte zuerst ein paar Sender aus den Favoriten löschen.</TooMany>
+    <AlreadyExist>Den Sender gibt es bereits</AlreadyExist>
+    <MoveUp>Ausgewählten Favoriten nach oben verschieben</MoveUp>
+  </Favorites>
+  <EQUALIZER>
+    <Title>Equalizer</Title>
+    <Off>Aus</Off>
+    <Jazz>Jazz</Jazz>
+    <Pop>Pop</Pop>
+    <Rock>Rock</Rock>
+    <Classic>Klassik</Classic>
+  </EQUALIZER>
+  <PictureArt>
+    <Open>Öffnen</Open>
+    <Close>Schließen</Close>
+    <Disable>Abschalten</Disable>
+    <YouTube>Auf YouTube ansehen</YouTube>
+    <BuyOnAmazon>Bei Amazon erwerben</BuyOnAmazon>
+  </PictureArt>
+  <SleepTimer>
+    <Off>Einschlafautomatik aus</Off>
+    <Title>Einschlafautomatik</Title>
+    <Sleep5>Ausschalten in 5 min</Sleep5>
+    <Sleep10>Ausschalten in 10 min</Sleep10>
+    <Sleep15>Ausschalten in 15 min</Sleep15>
+    <Sleep20>Ausschalten in 20 min</Sleep20>
+    <Sleep30>Ausschalten in 30 min</Sleep30>
+    <Sleep60>Ausschalten in 60 min</Sleep60>
+    <Sleep90>Ausschalten in 90 min</Sleep90>
+    <Sleep120>Ausschalten in 120 min</Sleep120>
+  </SleepTimer>
+  <SongsList>
+    <MenuItem>Titelhistorie</MenuItem>
+    <ListTitle>Sender/Titel Historie</ListTitle>
+    <Song>Sender/Titel</Song>
+    <Time>Zeit</Time>
+  </SongsList>
+</XMLConfigSettings>

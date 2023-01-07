@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<XMLConfigSettings>
+  <Radio>
+    <Playing>Lecture</Playing>
+    <Connecting>Connexion...</Connecting>
+    <Stopping>Arrêter...</Stopping>
+    <Stopped>Arrêter.</Stopped>
+    <Init>Initialisation...</Init>
+    <InitError>Impossible d'initialiser.</InitError>
+    <InitDone>Initialisation terminée.</InitDone>
+    <ConnectError>Impossible de se connecter.</ConnectError>
+    <Buffering>En attente...</Buffering>
+    <PlayingError>Erreur de connexion.</PlayingError>
+    <Buffer>tampon: %d%%</Buffer>
+  </Radio>
+  <MainWindow>
+    <Exit>Quitter</Exit>
+    <Play>Lire</Play>
+    <Stop>Stop</Stop>
+    <Back>Station précédente</Back>
+    <Mute>Muet</Mute>
+    <Recording>Enregistrer</Recording>
+    <StationsNumber>Station trouvées: %d</StationsNumber>
+    <About>A propos</About>
+    <Language>Langue</Language>
+    <Clipboard>Copier l'URL dans le presse-papiers</Clipboard>
+    <Unmute>Remettre le son</Unmute>
+    <StopRecording>Arrêter l'enregistrement</StopRecording>
+    <Forward>Suivante</Forward>
+    <Expand>Mode compact/normal</Expand>
+    <OnTop>Toujours au-dessus</OnTop>
+    <Hide>Cacher</Hide>
+    <WindowMenu>Fenêtre</WindowMenu>
+    <ClipboardMenu>Presse-papiers</ClipboardMenu>
+    <PlayFromClipboard>Lire l'URL depuis le presse-papiers</PlayFromClipboard>
+  </MainWindow>
+  <StationDlg>
+    <CreateNewTitle>Créer une nouvelle station</CreateNewTitle>
+    <Title>* Titre:</Title>
+    <WebPage>Site Web:</WebPage>
+    <Details>Détails</Details>
+    <AddNewStation>Ajouter une nouvelle station</AddNewStation>
+    <DeleteStation>Supprimer une radio</DeleteStation>
+    <ShouldSelect>Veuillez choisir une station de radio.</ShouldSelect>
+    <CannotChange>vous ne pouvez pas changer les stations prédéfinies.</CannotChange>
+    <QuestionDelete>Etes-vous vraiment sûr de vouloir supprimer la station "%s"?</QuestionDelete>
+    <CannotDelete>Vous ne pouvez pas supprimer les stations prédéfinies.</CannotDelete>
+    <RemoveFilter>Supprimer le filtre</RemoveFilter>
+    <ShowOnlyMyStations>Afficher uniquement mes stations</ShowOnlyMyStations>
+    <ColumnTitle>Titre</ColumnTitle>
+    <ColumnCountry>Pays</ColumnCountry>
+    <ColumnGenre>Genre</ColumnGenre>
+    <ColumnLanguage>Langue</ColumnLanguage>
+    <Genre>Genre:</Genre>
+    <County>Pays:</County>
+    <SourceURL>Source URL:</SourceURL>
+    <SameName>Il y a une station du même nom. Choisir un autre nom.</SameName>
+    <SaveError>Un problème est apparu lors de la création d'une nouvelle station. Voulez-vous essayer de nouveau?</SaveError>
+    <ChooseSource>Sélectionner une source</ChooseSource>
+  </StationDlg>
+  <Message>
+    <StopRecording>L'enregistrement est en cours, souhaitez-vous l'arrêter?</StopRecording>
+    <CannotStartRecording>Impossible d'enregistrer. Probablement un manque d'espace  ou un problème avec l'encodeur.</CannotStartRecording>
+    <Version>%s, version %s %s</Version>
+    <NewVersion>il y a la nouvelle version %s de disponible!</NewVersion>
+    <NewVersionLoad>Cliquer ici pour télécharger et installer la nouvelle version.</NewVersionLoad>
+    <LatestVersion>Vous utilisez la dernière version!</LatestVersion>
+    <CheckingVersion>Recherche d'une nouvelle version...</CheckingVersion>
+    <SkinCreatedBy>Skin créé</SkinCreatedBy>
+    <TranslatedBy>Traduit en Français par Gsyka</TranslatedBy>
+  </Message>
+  <Properties>
+    <Title>Options</Title>
+    <General>
+      <Title>Général</Title>
+      <AutoStart>Démarrer avec Windows</AutoStart>
+      <AutoPlay>Commencer automatiquement la lecture au démarrage</AutoPlay>
+      <Crossfade>Fondu au changement de stations</Crossfade>
+      <CheckUpdate>Rechercher une nouvelle version</CheckUpdate>
+      <Normalization>Normaliser le volume</Normalization>
+      <ClearSearch>Effacer l'historique</ClearSearch>
+      <SearchCleared>Historique de recherche effacé avec succès.</SearchCleared>
+      <GlobalHotkeys>Activer les raccourcis clavier</GlobalHotkeys>
+    </General>
+    <Advanced>
+      <Title>Avancées</Title>
+      <Device>Dispositif Audio</Device>
+      <DefaultDevice>Dispositif Audio standard</DefaultDevice>
+      <DeviceChange>Les modifications seront appliquées au prochain changement de station</DeviceChange>
+      <AlwaysShowtitle>Afficher le nom de la station dans le titre de la fenêtre</AlwaysShowtitle>
+      <SelectSkin>Skin:</SelectSkin>
+    </Advanced>
+    <Rec>
+      <Title>Enregistrements</Title>
+      <Folder>Dossier des enregistrements:</Folder>
+      <FolderTitle>Dossier pour les enregistrements</FolderTitle>
+      <FolderMessage>Sélectionner un dossier ou tout vos enregistrements seront conservés.</FolderMessage>
+      <Bitrate>Bitrate</Bitrate>
+      <SplitByTracks>Découper les Enr.  par titre</SplitByTracks>
+      <AutoBitrate>auto</AutoBitrate>
+      <DontWriteExist>Ne pas enregistrer un titre s'il existe déjà</DontWriteExist>
+      <OpenFolder>Ouvrir Dossier</OpenFolder>
+      <SplitBySize>Découper les Enr. par taille</SplitBySize>
+    </Rec>
+  </Properties>
+  <Favorites>
+    <Title>Favoris</Title>
+    <Add>Ajouter aux favoris</Add>
+    <Remove>Supprimer des favoris</Remove>
+    <Empty>Pas de stations sélectionnée pour le moment</Empty>
+    <ShouldSelect>Choisir une station de radio.</ShouldSelect>
+    <TooMany>S'il vous plaît supprimer quelques éléments avant.</TooMany>
+    <AlreadyExist>Déjà présent!</AlreadyExist>
+  </Favorites>
+  <EQUALIZER>
+    <Title>Egaliseur</Title>
+    <Off>Off</Off>
+    <Jazz>Jazz</Jazz>
+    <Pop>Pop</Pop>
+    <Rock>Rock</Rock>
+    <Classic>Classique</Classic>
+  </EQUALIZER>
+</XMLConfigSettings>

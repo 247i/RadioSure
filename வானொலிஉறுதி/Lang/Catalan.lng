@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XMLConfigSettings>
+<Radio>
+	<Playing>En línia</Playing>
+	<Connecting>S'està connectant...</Connecting>
+	<Stopping>S'està aturant...</Stopping>
+	<Stopped>Aturat.</Stopped>
+	<Init>S'està iniciant...</Init>
+	<InitError>No es pot iniciar.</InitError>
+	<InitDone>Iniciació completa.</InitDone>
+	<ConnectError>No es pot connectar.</ConnectError>
+	<Buffering>S'està emmagatzemant...</Buffering>
+	<PlayingError>Error de connexió.</PlayingError>
+	<Buffer>Memòria: %d%%</Buffer>
+</Radio>
+<MainWindow>
+	<Exit>Surt</Exit>
+	<Play>Reprodueix</Play>
+	<Stop>Atura</Stop>
+	<Back>Enrere</Back>
+	<Mute>Desactiva l'àudio</Mute>
+	<Recording>Enregistra l'àudio</Recording>
+	<StationsNumber>Emissores: %d</StationsNumber>
+	<About>Quant a</About>
+	<Language>Idioma</Language>
+	<Clipboard>Copia l'enllaç al porta-retalls</Clipboard>
+	<Unmute>Activa l'àudio</Unmute>
+	<StopRecording>Atura la gravació</StopRecording>
+	<Forward>Endavant</Forward>
+	<Expand>Maximitza/Minimitza</Expand>
+	<OnTop>Sempre visible</OnTop>
+	<Hide>Amaga</Hide>
+	<WindowMenu>Finestra</WindowMenu>
+	<ClipboardMenu>Porta-retalls</ClipboardMenu>
+	<PlayFromClipboard>Reprodueix des d'un enllaç del porta-retalls</PlayFromClipboard>
+	<Layout>ESQUERRA-A-DRETA</Layout>
+	<SingleTrackRecording>Enregistra només la cançó actual</SingleTrackRecording>
+	<TitleToClipboard>Copia el títol al porta-retalls</TitleToClipboard>
+</MainWindow>
+<StationDlg>
+	<CreateNewTitle>Crea una emissora</CreateNewTitle>
+	<Title>* Títol:</Title>
+	<WebPage>Web:</WebPage>
+	<Details>Detalls</Details>
+	<AddNewStation>Afegeix una emissora</AddNewStation>
+	<DeleteStation>Esbrra l'emissora</DeleteStation>
+	<ShouldSelect>Trieu una emissora de ràdio.</ShouldSelect>
+	<CannotChange>No podeu canviar les emissores per defecte.</CannotChange>
+	<QuestionDelete>Segur que desitgeu suprimir l'emissora "%s"?</QuestionDelete>
+	<CannotDelete>No podeu suprimir les emissores per defecte.</CannotDelete>
+	<RemoveFilter>Esborra el filtre</RemoveFilter>
+	<ShowOnlyMyStations>Mostra només els meus favorits</ShowOnlyMyStations>
+	<ColumnTitle>Títol</ColumnTitle>
+	<ColumnCountry>País</ColumnCountry>
+	<ColumnGenre>Gènere</ColumnGenre>
+	<ColumnLanguage>Idioma</ColumnLanguage>
+	<Genre>Gènere:</Genre>
+	<County>País:</County>
+	<SourceURL>Enllaç:</SourceURL>
+	<SameName>Ja existeix altre emissora amb el mateix nom. Trieu-ne un altre.</SameName>
+	<SaveError>Hi ha hagut un error en crear l'emissora. Voleu provar novament?</SaveError>
+	<ChooseSource>Trieu l'enllaç</ChooseSource>
+	<StationDetailsTitle>Detalls de l'emissora</StationDetailsTitle>
+	<Description>Descripció:</Description>
+</StationDlg>
+<Message>
+	<StopRecording>S'està enregistrant l'àudio. Voleu aturar el procés?</StopRecording>
+	<CannotStartRecording>No es pot iniciar la gravació. No teniu prou espai, no podeu escriure a la carpeta desitjada, o ha fallat el còdec.</CannotStartRecording>
+	<Version>%s, versió %s %s</Version>
+	<NewVersion>Ja està disponible la versió %s!</NewVersion>
+	<NewVersionLoad>Premeu aquí per descarregar la nova versió.</NewVersionLoad>
+	<LatestVersion>Ja teniu la versió més recent!</LatestVersion>
+	<CheckingVersion>S'està cercant una nova versió...</CheckingVersion>
+	<SkinCreatedBy>Aparença creada per</SkinCreatedBy>
+	<TranslatedBy>Traducció: BennyBeat (CATegoria.cat)</TranslatedBy>
+	<InstallSkin>Voleu instal·lar l'aparença?</InstallSkin>
+	<InstallSkinOverwrite>Ja existeixen fitxers amb el mateix nom. Desitgeu sobreescriure'ls?</InstallSkinOverwrite>
+	<InstallSkinEroor>No s'ha pogut instal·lar l'aparença. No teniu privilegis per escriure a la carpeta.</InstallSkinEroor>
+	<DatabaseUpdated>La base de dades d'emissores ha estat actualitzada.</DatabaseUpdated>
+</Message>
+<Properties>
+	<Title>Opcions</Title>
+<General>
+	<Title>General</Title>
+	<AutoStart>Inicia amb Windows</AutoStart>
+	<AutoPlay>Comença la reproducció automàticament en iniciar</AutoPlay>
+	<Crossfade>Canvi gradual de l'àudio entre emissores</Crossfade>
+	<CheckUpdate>Cerca una nova versió</CheckUpdate>
+	<Normalization>Nivell de volum normalitzat</Normalization>
+	<ClearSearch>Esborra l'historial de recerca</ClearSearch>
+	<SearchCleared>S'ha suprimit l'historial correctament.</SearchCleared>
+	<MinimizeToTray>Minimitza la finestra a la barra de tasques</MinimizeToTray>
+	<ShowNotifications>Mostra el títol a la barra de tasques</ShowNotifications>
+	<GlobalHotkeys>Activa les dreceres del teclat</GlobalHotkeys>
+</General>
+<Hotkeys>
+	<Title>Dreceres</Title>
+	<Restore>Restaura</Restore>
+	<RestoreQuestion>Voleu restaurar les dreceres a la configuració per defecte?</RestoreQuestion>
+	<Start>Inicia/Atura la reproducció:</Start>
+	<Mute>Activa/Desactiva:</Mute>
+	<Rec>Inicia/Atura la gravació:</Rec>
+	<Hide>Mostra/amaga la finestra:</Hide>
+	<VolumeUp>Puja el volum:</VolumeUp>
+	<VolumeDown>Baixa el volum:</VolumeDown>
+	<Prev>Emissora anterior:</Prev>
+	<Next>Emissora següent:</Next>
+</Hotkeys>
+<Advanced>
+	<Title>Avançat</Title>
+	<Device>Dispositiu d'àudio:</Device>
+	<DefaultDevice>Dispositiu per defecte</DefaultDevice>
+	<DeviceChange>Els canvis seran aplicats amb el proper canvi d'emissora</DeviceChange>
+	<AlwaysShowtitle>Mostra sempre el nom de l'emissora a la barra del títol</AlwaysShowtitle>
+	<SelectSkin>Aparença:</SelectSkin>
+	<SkinPage>Aparences</SkinPage>
+	<PictureArt>Mostra la imatge relacionada</PictureArt>
+	<SortFavorites>Mostra els favorits per ordre alfabètic</SortFavorites>
+	<GroupFavorites>Agrupa els favorits</GroupFavorites>
+	<MuteOnLock>Desactiva l'àudio en blocar el sistema</MuteOnLock>
+	<OneInstance>Permet només una sessió alhora</OneInstance>
+	<SyncFavorites>Sincronitza els favorits amb la base de dades</SyncFavorites>
+</Advanced>
+<Skins>
+	<DropToInstall>Arrossegueu aquí un fitxer d'interfície per a instal·lar-ho.</DropToInstall>
+	<MoreSkins>Més aparences:</MoreSkins>
+</Skins>
+<Audio>
+	<Title>Àudio</Title>
+</Audio>
+<Network>
+	<Title>Xarxa</Title>
+	<ProxyAuth>El servidor requereix autentificació</ProxyAuth>
+	<UseProxy>Utilitza aquest servidor intermediari</UseProxy>
+	<ProxyGroup>Configuració del servidor intermediari</ProxyGroup>
+	<ProxyServer>Servidor:</ProxyServer>
+	<ProxyPort>Port:</ProxyPort>
+	<ProxyPass>Contrasenya:</ProxyPass>
+	<ProxyName>Nom:</ProxyName>
+</Network>
+<Rec>
+	<Title>Gravació</Title>
+	<Folder>Carpeta on desar els fitxers:</Folder>
+	<FolderTitle>Seleccioneu una carpeta</FolderTitle>
+	<FolderMessage>Seleccioneu la carpeta on es desaran les vostres gravacions d'àudio.</FolderMessage>
+	<Bitrate>Taxa de bits:</Bitrate>
+	<SplitByTracks>retalla pel nom de les pistes</SplitByTracks>
+	<Prebuffering>Enregistra la cançó sencera des de l'inici (ús de CPU elevat)</Prebuffering>
+	<SkipAds>No enregistris la publicitat (menys de 90 seg)</SkipAds>
+	<AutoBitrate>Automàtica</AutoBitrate>
+	<DontWriteExist>No sobreescriguis en existir altre cançó amb el mateix nom</DontWriteExist>
+	<OpenFolder>Obre la carpeta</OpenFolder>
+	<SplitBySize>Retalla les gravacions per mida del fitxer</SplitBySize>
+	<DirectStreamRec>Permet la gravació de flux directa (MP3 i AAC)</DirectStreamRec>
+	<Fading>Aplica l'entrada i sortida de fos als fitxers gravats</Fading>
+</Rec>
+</Properties>
+<Favorites>
+	<Export>Exporta</Export>
+	<Import>Importa</Import>
+	<Delete>Suprimeix-ho tot</Delete>
+	<DeleteQuestion>Segur que desitgeu suprimir tots els favorits?</DeleteQuestion>
+	<ImportedOk>S'han importat els favorits correctament.</ImportedOk>
+	<ImportedError>Hi ha hagut un error en importar els favorits.</ImportedError>
+	<ExportedOk>S'han exportat els favorits correctament.</ExportedOk>
+	<ExportedError>Hi ha hagut un error en exportar els favorits.</ExportedError>
+	<Title>Favorits</Title>
+	<Add>Afegeix als favorits</Add>
+	<MoveUp>Mou la selecció amunt</MoveUp>
+	<Remove>Suprimeix dels favorits</Remove>
+	<Empty>No heu seleccionat cap emissora</Empty>
+	<ShouldSelect>Trieu primer una emissora.</ShouldSelect>
+	<TooMany>Suprimiu primer alguns elements.</TooMany>
+	<AlreadyExist>Ja existeix!</AlreadyExist>
+</Favorites>	
+<EQUALIZER>
+	<Title>Equalitzador</Title>
+	<Off>Desactivat</Off>
+	<Jazz>Jazz</Jazz>
+	<Pop>Pop</Pop>
+	<Rock>Rock</Rock>
+	<Classic>Música clàssica</Classic>
+</EQUALIZER>
+<PictureArt>
+	<Title>Caràtula</Title>
+	<Open>Obre al web</Open>
+	<Close>Tanca</Close>
+	<Disable>Desactiva</Disable>
+	<YouTube>Mostra a YouTube</YouTube>
+	<BuyOnAmazon>Compra des d'Amazon</BuyOnAmazon>
+</PictureArt>
+<SleepTimer>
+	<Off>No facis servir el temportizador</Off>
+	<Title>Temporitzador d'apagada automàtica</Title>
+	<Sleep5>Atura en 5 min</Sleep5>
+	<Sleep10>Atura en 10 min</Sleep10>
+	<Sleep15>Atura en 15 min</Sleep15>
+	<Sleep20>Atura en 20 min</Sleep20>
+	<Sleep30>Atura en 30 min</Sleep30>
+	<Sleep60>Atura en 60 min</Sleep60>
+	<Sleep90>Atura en 90 min</Sleep90>
+	<Sleep120>Atura en 120 min</Sleep120>
+</SleepTimer>
+</XMLConfigSettings>

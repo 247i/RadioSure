@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XMLConfigSettings>
+<Radio>
+	<Playing>Prehrávam</Playing>
+	<Connecting>Pripájam sa...</Connecting>
+	<Stopping>Zastavujem...</Stopping>
+	<Stopped>Zastavené.</Stopped>
+	<Init>Inicializujem...</Init>
+	<InitError>Nemôžem inicializovať.</InitError>
+	<InitDone>Inicializácia ukončená.</InitDone>
+	<ConnectError>Nemôžem sa pripojiť.</ConnectError>
+	<Buffering>Napĺňam vyrovnávaciu pamäť...</Buffering>
+	<PlayingError>Chyba pripojenia.</PlayingError>
+	<Buffer>Buffer: %d%%</Buffer>
+</Radio>
+<MainWindow>
+	<Exit>Ukončiť</Exit>
+	<Play>Prehrať</Play>
+	<Stop>Zastaviť</Stop>
+	<Back>Späť</Back>
+	<Mute>Vypnuť zvuk</Mute>
+	<Recording>Nahrať</Recording>
+	<StationsNumber>Počet staníc: %d</StationsNumber>
+	<About>O programe</About>
+	<Language>Jazyk</Language>
+	<Clipboard>Skopírovať URL do schránky</Clipboard>
+	<Unmute>Zapnuť zvuk</Unmute>
+	<StopRecording>Zastaviť nahrávanie</StopRecording>
+	<Forward>Dopredu</Forward>
+	<Expand>Zväčšiť/Zmenšiť</Expand>
+	<OnTop>Vždy navrchu</OnTop>
+	<Hide>Skryť</Hide>
+	<WindowMenu>Okno</WindowMenu>
+	<ClipboardMenu>Schránka</ClipboardMenu>
+	<PlayFromClipboard>Prehrať URL zo schránky</PlayFromClipboard>
+<Layout>LEFT-TO-RIGHT</Layout></MainWindow>
+<StationDlg>
+	<CreateNewTitle>Pridanie novej stanice</CreateNewTitle>
+	<Title>* Názov:</Title>
+	<WebPage>Web stránka:</WebPage>
+	<Details>Detaily</Details>
+	<AddNewStation>Pridať novú stanicu</AddNewStation>
+	<DeleteStation>Odstrániť stanicu</DeleteStation>
+	<ShouldSelect>Vyber prosím stanicu.</ShouldSelect>
+	<CannotChange>Nemôžeš upravovať predvolené stanice.</CannotChange>
+	<QuestionDelete>Naozaj chceš odstrániť stanicu "%s"?</QuestionDelete>
+	<CannotDelete>Nemôžeš odstrániť predvolené stanice.</CannotDelete>
+	<RemoveFilter>Odstrániť filter</RemoveFilter>
+	<ShowOnlyMyStations>Zobraziť len moje stanice</ShowOnlyMyStations>
+	<ColumnTitle>Názov</ColumnTitle>
+	<ColumnCountry>Krajina</ColumnCountry>
+	<ColumnGenre>Žáner</ColumnGenre>
+	<ColumnLanguage>Jazyk</ColumnLanguage>
+	<Genre>Žáner:</Genre>
+	<County>Krajina:</County>
+	<SourceURL>URL:</SourceURL>
+	<SameName>Stanica s týmto názvom už existuje. Vyber si iný názov.</SameName>
+	<SaveError>Pri vytvárani novej stanice došlo k chybe. Chceš to skúsiť ešte raz?</SaveError>
+	<ChooseSource>Výber zdroja</ChooseSource>
+	<StationDetailsTitle>Podrobnejšie informácie o stanici</StationDetailsTitle>
+<Description>Popis:</Description></StationDlg>
+<Message>
+	<StopRecording>Práve sa nahráva. Chceš zastaviť nahrávanie?</StopRecording>
+	<CannotStartRecording>Nemôžem spustiť nahrávanie. Pravdepodobne nieje dostatok miesta na disku, alebo je problém s predvoleným adresárom, alebo enkodérom.</CannotStartRecording>
+	<Version>%s, verzia %s %s</Version>
+	<NewVersion>Je prístupná nová verzia %s.</NewVersion>
+	<NewVersionLoad>Kliknutím sa stiahne a nainštaluje nová verzia.</NewVersionLoad>
+	<LatestVersion>Používaš aktuálnu verziu.</LatestVersion>
+	<CheckingVersion>Zisťujem existenciu novej verzie...</CheckingVersion>
+	<SkinCreatedBy>Skin vytvoril:</SkinCreatedBy>
+	<TranslatedBy>Anglický preklad: The Best Ware Studio</TranslatedBy>
+	<InstallSkin>Chceš nainštalovať skin?</InstallSkin>
+	<InstallSkinOverwrite>Niektoré súbory už existujú. Chceš ich prepísať?</InstallSkinOverwrite>
+	<InstallSkinEroor>Nebolo možné nainštalovať skin. Vyskytli sa problémy pri zápise.</InstallSkinEroor>
+<DatabaseUpdated>Stations database updated.</DatabaseUpdated></Message>
+<Properties>
+	<Title>Nastavenia</Title>
+<General>
+	<Title>Hlavné</Title>
+	<AutoStart>Spustiť spolu s Windows</AutoStart>
+	<AutoPlay>Automaticky spustiť prehrávanie</AutoPlay>
+	<Crossfade>Stíšiť pri zmene stanice</Crossfade>
+	<CheckUpdate>Zisťovať existenciu novej verzie</CheckUpdate>
+	<Normalization>Normalizovať hlasitosť</Normalization>
+	<ClearSearch>Vymazať históriu hľadania</ClearSearch>
+	<SearchCleared>História hľadania bola vymazaná.</SearchCleared>
+	<GlobalHotkeys>Povoliť globálne klávesové skratky</GlobalHotkeys>
+	<MinimizeToTray>Minimalizovať okno do systémovej oblasti</MinimizeToTray>
+<ShowNotifications>Show notifications in system tray</ShowNotifications></General>
+<Advanced>
+	<Title>Rozšírené</Title>
+	<Device>Audio zariadenie</Device>
+	<DefaultDevice>Predvolené audio zariadenie</DefaultDevice>
+	<DeviceChange>Zmeny sa prejavia pri najbližšej zmene stanice</DeviceChange>
+	<AlwaysShowtitle>Vždy zobrazovať názov stanice v názve okna</AlwaysShowtitle>
+	<SelectSkin>Skin:</SelectSkin>
+	<SkinPage>Skiny</SkinPage>
+	<PictureArt>Zobraziť obrázok ku skladbe</PictureArt>
+<SortFavorites>Sort favorites alphabetically</SortFavorites><GroupFavorites>Group favorites</GroupFavorites><MuteOnLock>Mute when user's session is locked</MuteOnLock></Advanced>
+<Rec>
+	<Title>Nahrávanie</Title>
+	<Folder>Adresár pre nahrávky:</Folder>
+	<FolderTitle>Adresár pre nahrávky</FolderTitle>
+	<FolderMessage>Zvoľ si adresár, kde sa budú ukladať tvoje nahrávky.</FolderMessage>
+	<Bitrate>Bitrate</Bitrate>
+	<SplitByTracks>Rozdeliť nahrávku podľa skladieb</SplitByTracks>
+	<AutoBitrate>Automatický</AutoBitrate>
+	<DontWriteExist>Nenahrávať skladbu, ak už existuje</DontWriteExist>
+	<OpenFolder>Otvoriť adresár</OpenFolder>
+	<SplitBySize>Rozdeliť nahrávku podľa veľkosti</SplitBySize>
+	<Prebuffering>Nahrať celú skladbu od začiatku (vyššia záťaž CPU)</Prebuffering>
+<SkipAds>Don't record advertisements (less than 90 sec)</SkipAds></Rec>
+<Hotkeys><Title>Hotkeys</Title><Restore>Restore</Restore><RestoreQuestion>Do you realy want to restore all the hotkeys to its defaults?</RestoreQuestion><Start>Start/Stop Playing:</Start><Mute>Mute/Unmute:</Mute><Rec>Start/Stop Recording:</Rec><Hide>Hide/Show Window:</Hide><VolumeUp>Adjust Volume Up:</VolumeUp><VolumeDown>Adjust Volume Down:</VolumeDown><Prev>Previous Station:</Prev><Next>Next Station:</Next></Hotkeys><Audio><Title>Audio</Title></Audio><Network><Title>Network</Title><ProxyAuth>Use proxy authorization</ProxyAuth><UseProxy>Use this proxy</UseProxy><ProxyGroup>Proxy settings</ProxyGroup><ProxyServer>Server:</ProxyServer><ProxyPort>Port:</ProxyPort><ProxyPass>Password:</ProxyPass><ProxyName>Name:</ProxyName></Network></Properties>
+<Favorites>
+	<Title>Obľúbené</Title>
+	<Add>Pridať k obľúbeným</Add>
+	<Remove>Odstrániť z obľúbených</Remove>
+	<Empty>Nie je zvolená stanica</Empty>
+	<ShouldSelect>Najprv si vyber stanicu.</ShouldSelect>
+	<TooMany>Najprv odstráň nejakú položku.</TooMany>
+	<AlreadyExist>Už tu je!</AlreadyExist>
+	<MoveUp>Posunúť hore</MoveUp>
+</Favorites>
+<EQUALIZER>
+	<Title>Ekvalizér</Title>
+	<Off>Vypnutý</Off>
+	<Jazz>Jazz</Jazz>
+	<Pop>Pop</Pop>
+	<Rock>Rock</Rock>
+	<Classic>Classic</Classic>
+</EQUALIZER>
+<PictureArt>
+	<Title>Obal</Title>
+	<Open>Open in Web</Open>
+	<Close>Zatvoriť</Close>
+	<Disable>Zakázať</Disable>
+</PictureArt>
+<SleepTimer><Off>Sleep timer off</Off><Sleep5>Sleep in 5 min</Sleep5><Sleep10>Sleep in 10 min</Sleep10><Sleep15>Sleep in 15 min</Sleep15><Sleep20>Sleep in 20 min</Sleep20><Sleep30>Sleep in 30 min</Sleep30><Sleep60>Sleep in 60 min</Sleep60><Sleep90>Sleep in 90 min</Sleep90><Sleep120>Sleep in 120 min</Sleep120><Title>Sleep timer</Title></SleepTimer></XMLConfigSettings>
