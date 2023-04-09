@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <XMLConfigSettings>
 <Radio>
-<Playing>விளையாடுதல்</Playing>
+<Playing>இசைக்கிறது</Playing>
 <Connecting>இணைக்கிறது...</Connecting>
 <Stopping>நிறுத்துகிறது...</Stopping>
 <Stopped>நிறுத்தப்பட்டது.</Stopped>
@@ -23,43 +23,191 @@
 <StationsNumber>கண்டுபிடிக்கப்பட்ட நிலையங்கள்: %d</StationsNumber>
 <About>பற்றி</About>
 <Language>மொழி</Language>
-<Clipboard>Copy URL to Clipboard</Clipboard>
-<Unmute>Unmute</Unmute>
-<StopRecording>Stop Rec</StopRecording>
-<Forward>Forward</Forward>
-<Expand>Expand/Collapse</Expand>
-<OnTop>Always on top</OnTop>
-<Hide>Hide</Hide>
-<WindowMenu>Window</WindowMenu>
-<ClipboardMenu>Clipboard</ClipboardMenu>
-<PlayFromClipboard>Play URL from Clipboard</PlayFromClipboard>
-<Layout>LEFT-TO-RIGHT</Layout>
-<SingleTrackRecording>Record only current track</SingleTrackRecording>
-<TitleToClipboard>Copy Title to Clipboard</TitleToClipboard>
+<Clipboard>URLஐ இடையகத்திற்கு நகலெடுக்கவும்</Clipboard>
+<Unmute>ஒலிஇயக்கு</Unmute>
+<StopRecording>பதிவு நிறுத்து</StopRecording>
+<Forward>முன்நோக்கி</Forward>
+<Expand>விரிவாக்கு/விரி</Expand>
+<OnTop>எப்போதும் மேலே</OnTop>
+<Hide>மறை</Hide>
+<WindowMenu>சாளரம்</WindowMenu>
+<ClipboardMenu>இடையகம்</ClipboardMenu>
+<PlayFromClipboard>இடையகலிருந்து URLஐ இயக்கவும்</PlayFromClipboard>
+<Layout>இடமிருந்து வலமாக</Layout>
+<SingleTrackRecording>தற்போதைய பாதையை மட்டும் பதிவு செய்யவும் </SingleTrackRecording>
+<TitleToClipboard>தலைப்பை இடையகதிற்கு நகலெடு</TitleToClipboard>
 </MainWindow>
 <StationDlg>
-<CreateNewTitle>Create new station</CreateNewTitle>
-<Title>* Title:</Title><WebPage>Web page:</WebPage><Details>Details</Details><AddNewStation>Add new station</AddNewStation><DeleteStation>Delete the station</DeleteStation><ShouldSelect>Please select a radio station.</ShouldSelect><CannotChange>You cannot change predefined stations.</CannotChange><QuestionDelete>Are you really sure you want to delete the station "%s"?</QuestionDelete><CannotDelete>You cannot delete predefined stations.</CannotDelete><RemoveFilter>Remove filter</RemoveFilter><ShowOnlyMyStations>Show only my stations</ShowOnlyMyStations><ColumnTitle>Title</ColumnTitle><ColumnCountry>Country</ColumnCountry><ColumnGenre>Genre</ColumnGenre><ColumnLanguage>Language</ColumnLanguage><Genre>Genre:</Genre><County>Country:</County><SourceURL>Source URL:</SourceURL><SameName>There is another station with the same name. Please choose another name.</SameName><SaveError>A problem appeared while creating new station. Do you want to try again?</SaveError><ChooseSource>Select a source</ChooseSource><StationDetailsTitle>Station details</StationDetailsTitle><Description>Description:</Description><SongsList>Played Songs</SongsList>
+<CreateNewTitle>புதிய நிலையத்தை உருவாக்கு</CreateNewTitle>
+<Title>* தலைப்பு:</Title>
+<WebPage>இணையப்பக்கம்:</WebPage>
+<Details>விவரங்கள்</Details>
+<AddNewStation>புதிய நிலையத்தைச் சேர்</AddNewStation>
+<DeleteStation>நிலையத்தை நீக்கு</DeleteStation>
+<ShouldSelect>தயவுசெய்து வானொலி நிலையத்தைத் தேர்ந்தெடுக்கவும்.</ShouldSelect>
+<CannotChange>முன்வரையறுக்கப்பட்ட நிலையங்களை உங்களால் மாற்ற முடியாது.</CannotChange>
+<QuestionDelete>நிச்சயமாக "%s" நிலையத்தை நீக்க விரும்புகிறீர்களா?</QuestionDelete>
+<CannotDelete>நீங்கள் முன் வரையறுக்கப்பட்ட நிலையங்களை நீக்க முடியாது.</CannotDelete>
+<RemoveFilter>வடிப்பானை அகற்று</RemoveFilter>
+<ShowOnlyMyStations>எனது நிலையங்களை மட்டும் காட்டு</ShowOnlyMyStations>
+<ColumnTitle>தலைப்பு</ColumnTitle>
+<ColumnCountry>நாடு</ColumnCountry>
+<ColumnGenre>வகை</ColumnGenre>
+<ColumnLanguage>மொழி</ColumnLanguage>
+<Genre>வகை:</Genre>
+<County>நாடு:</County>
+<SourceURL>ஆதர URL:</SourceURL>
+<SameName>அதே பெயரில் மற்றொரு நிலையம் உள்ளது. தயவுசெய்து வேறொரு பெயரைத் தேர்ந்தெடுக்கவும்.</SameName>
+<SaveError>புதிய நிலையத்தை உருவாக்கும் போது சிக்கல் ஏற்பட்டது. மீண்டும் முயற்சிக்க விரும்புகிறீர்களா?</SaveError>
+<ChooseSource>ஒரு ஆதாரத்தைத் தேர்ந்தெடு</ChooseSource>
+<StationDetailsTitle>நிலைய விவரங்கள்</StationDetailsTitle>
+<Description>விளக்கம்:</Description>
+<SongsList>இசைக்கப்பட்ட பாடல்கள்</SongsList>
 </StationDlg>
 <Message>
-<StopRecording>Recording is in progress. Do you want to stop recording?</StopRecording><CannotStartRecording>Cannot start recording. Probably not enough space or problem with dedicated folder or problems with encoder.</CannotStartRecording><Version>%s, version %s %s</Version><NewVersion>There is new version %s available!</NewVersion><NewVersionLoad>Click here to download and install new version.</NewVersionLoad><LatestVersion>You have the latest version!</LatestVersion><CheckingVersion>Checking new version...</CheckingVersion><SkinCreatedBy>Skin created by</SkinCreatedBy><TranslatedBy>English translation by The Best Ware Studio</TranslatedBy><InstallSkin>Do you want to install the skin?</InstallSkin><InstallSkinOverwrite>Some files of the skin already exist. Do you want to overwrite?</InstallSkinOverwrite><InstallSkinEroor>Wasn't able to install the skin. Cannot write into the skin folder.</InstallSkinEroor><DatabaseUpdated>Stations database has been updated.</DatabaseUpdated>
+<StopRecording>பதிவுசெய்தல் செயலில் உள்ளது. பதிவுசெய்தலை நிறுத்த வேண்டுமா? </StopRecording>
+<CannotStartRecording>பதிவைத் தொடங்க முடியவில்லை. அனேகமாக போதிய இடமில்லை அல்லது பிரத்யேக கோப்புறையில் சிக்கல் இருக்கலாம்</CannotStartRecording>
+<Version>%s, பதிப்பு %s %s</Version>
+<NewVersion>புதிய பதிப்பு %s உள்ளது!</NewVersion>
+<NewVersionLoad>புதிய பதிப்பைப் பதிவிறக்கி நிறுவ, இங்கே சொடுக்கவும்.</NewVersionLoad>
+<LatestVersion>உங்களிடம் சமீபத்திய பதிப்பு உள்ளது!</LatestVersion>
+<CheckingVersion>புதிய பதிப்பைச் சரிபார்க்கிறது...</CheckingVersion>
+<SkinCreatedBy>தோல் உருவாக்கியது</SkinCreatedBy>
+<TranslatedBy>தமிழ்நேரகுழு வழங்கும் தமிழாக்கம்</TranslatedBy>
+<InstallSkin>தோலை நிறுவ விரும்புகிறீர்களா?</InstallSkin>
+<InstallSkinOverwrite>தோலின் சில கோப்புகள் ஏற்கனவே உள்ளன. நீங்கள் மேலெழுத விரும்புகிறீர்களா?</InstallSkinOverwrite>
+<InstallSkinEroor>தோலை நிறுவ முடியவில்லை. தோல் கோப்புறையில் எழுத முடியாது.</InstallSkinEroor>
+<DatabaseUpdated>நிலையங்களின் தரவுத்தளம் புதுப்பிக்கப்பட்டது.</DatabaseUpdated>
 </Message>
 <Properties>
-<Title>Options</Title><General><Title>General</Title><AutoStart>Start with Windows</AutoStart><AutoPlay>Automatically start playing after startup</AutoPlay><Crossfade>Crossfade between stations</Crossfade><CheckUpdate>Check for new version</CheckUpdate><Normalization>Volume level normalization</Normalization><ClearSearch>Clear search history</ClearSearch><SearchCleared>Search history successfully cleared.</SearchCleared><GlobalHotkeys>Enable Global hotkeys</GlobalHotkeys><MinimizeToTray>Minimize window to the system tray</MinimizeToTray><ShowNotifications>Show song titles in the system tray</ShowNotifications></General><Advanced><Title>Advanced</Title><Device>Audio device:</Device><DefaultDevice>Standard audio device</DefaultDevice><DeviceChange>Changes will be applied after the next station change</DeviceChange><AlwaysShowtitle>Always show station name in the window title</AlwaysShowtitle><SelectSkin>Skin:</SelectSkin><SkinPage>Skins</SkinPage><PictureArt>Show pictures related to songs</PictureArt><SortFavorites>Sort favorites alphabetically</SortFavorites><GroupFavorites>Group favorites</GroupFavorites><MuteOnLock>Mute when computer is locked</MuteOnLock><OneInstance>Allow only one instance</OneInstance><SyncFavorites>Synchronize favorites with database</SyncFavorites></Advanced><Rec><Title>Recording</Title><Folder>Folder for recordings:</Folder><FolderTitle>Folder for recordings</FolderTitle><FolderMessage>Please select a folder where all your recordings will be stored.</FolderMessage><Bitrate>Bitrate:</Bitrate><SplitByTracks>Split recordings by tracks</SplitByTracks><AutoBitrate>Auto</AutoBitrate><DontWriteExist>Avoid duplicated recordings</DontWriteExist><OpenFolder>Open folder</OpenFolder><SplitBySize>Split recordings by size</SplitBySize><Prebuffering>Record full songs from the beginning (higher CPU usage)</Prebuffering><SkipAds>Don't record advertisements (less than 90 sec)</SkipAds><DirectStreamRec>Allow direct stream recording (for MP3 and AAC)</DirectStreamRec><Fading>Apply Fade-in and Fade-out for recordings</Fading></Rec><Audio><Title>Audio</Title></Audio><Network><Title>Network</Title><ProxyAuth>Use proxy authorization</ProxyAuth><UseProxy>Use this proxy</UseProxy><ProxyGroup>Proxy settings</ProxyGroup><ProxyServer>Server:</ProxyServer><ProxyPort>Port:</ProxyPort><ProxyPass>Password:</ProxyPass><ProxyName>Name:</ProxyName></Network><Hotkeys><Restore>Restore</Restore><RestoreQuestion>Do you really want to restore all the hotkeys to their defaults?</RestoreQuestion><Title>Hotkeys</Title><Start>Start/Stop Playing:</Start><Mute>Mute/Unmute:</Mute><Rec>Start/Stop Recording:</Rec><Hide>Hide/Show Window:</Hide><VolumeUp>Adjust Volume Up:</VolumeUp><VolumeDown>Adjust Volume Down:</VolumeDown><Prev>Previous Station:</Prev><Next>Next Station:</Next></Hotkeys><Skins><DropToInstall>Drop zipped skin package here and it will be installed.</DropToInstall><MoreSkins>More skins:</MoreSkins></Skins><Favorites><Export>Export</Export><Import>Import</Import><Delete>Delete all</Delete><DeleteQuestion>Are you really sure you want to delete all your favorites?</DeleteQuestion><ImportedOk>Favorites were imported successfully.</ImportedOk><ImportedError>There was an error while importing favorites.</ImportedError><ExportedOk>Favorites were exported successfully.</ExportedOk><ExportedError>There was an error while exporting favorites.</ExportedError></Favorites>
+<Title>விருப்பங்கள்</Title>
+<General>
+<Title>பொது</Title>
+<AutoStart>சாளரத்துடன் தொடங்கு</AutoStart>
+<AutoPlay>தொடக்கத்திற்குப் பிறகு தானாகவே இசைக்கத் தொடங்கு</AutoPlay>
+<Crossfade>நிலையங்களுக்கு இடையே கிராஸ்ஃபேட்</Crossfade>
+<CheckUpdate>புதிய பதிப்பைச் சரிபார்க்கவும்</CheckUpdate>
+<Normalization>தொகுதி நிலை இயல்பாக்கம்</Normalization>
+<ClearSearch>தேடல் வரலாற்றை அழிக்கவும்</ClearSearch>
+<SearchCleared>தேடல் வரலாறு வெற்றிகரமாக அழிக்கப்பட்டது.</SearchCleared>
+<GlobalHotkeys>உலகளாவிய சூடான விசைகளை இயக்கவும் </GlobalHotkeys>
+<MinimizeToTray>கணினி தட்டில் சாளரத்தை குறைக்கவும்</MinimizeToTray>
+<ShowNotifications>கணினி தட்டில் பாடல் தலைப்புகளைக் காட்டு</ShowNotifications>
+</General>
+<Advanced>
+<Title>மேம்படுத்தபட்ட</Title>
+<Device>ஒலி சாதனம்:</Device>
+<DefaultDevice>நிலையான ஒலி சாதனம்</DefaultDevice>
+<DeviceChange>அடுத்த நிலைய மாற்றத்திற்குப் பிறகு மாற்றங்கள் பயன்படுத்தப்படும்</DeviceChange>
+<AlwaysShowtitle>எப்பொழுதும் சாளரத்தின் தலைப்பில் நிலையத்தின் பெயரைக் காட்டு</AlwaysShowtitle>
+<SelectSkin>தோல்:</SelectSkin>
+<SkinPage>தோல்கள்</SkinPage>
+<PictureArt>பாடல்கள் தொடர்பான படங்களைக் காட்டு</PictureArt>
+<SortFavorites>பிடித்தவற்றை அகரவரிசையில் வரிசைப்படுத்தவும்</SortFavorites>
+<GroupFavorites>குழு பிடித்தவை</GroupFavorites>
+<MuteOnLock>கணினி பூட்டப்பட்டிருக்கும் போது ஒலிமுடக்கு</MuteOnLock>
+<OneInstance>ஒரே ஒரு நிகழ்வை அனுமதிக்கவும்</OneInstance>
+<SyncFavorites>பிடித்தவற்றை தரவுத்தளத்துடன் ஒத்திசைக்கவும்</SyncFavorites>
+</Advanced>
+<Rec>
+<Title>பதிவுசெய்தல்</Title>
+<Folder>பதிவுகளுக்கான கோப்புறை:</Folder>
+<FolderTitle>பதிவுகளுக்கான கோப்புறை</FolderTitle>
+<FolderMessage>உங்கள் பதிவுகள் அனைத்தும் சேமிக்கப்பட்டும் கோப்புறையைத் தேர்ந்தெடுக்கவும்.</FolderMessage>
+<Bitrate>இருமவேகம்:</Bitrate>
+<SplitByTracks>தடங்களின் மூலம் பதிவுகளை பிரிக்கவும்</SplitByTracks>
+<AutoBitrate>தானியங்கு</AutoBitrate>
+<DontWriteExist>நகல் பதிவுகளை தவிர்க்கவும்</DontWriteExist>
+<OpenFolder>கோப்புறை திற</OpenFolder>
+<SplitBySize>பதிவுகளை அளவின்படி பிரிக்கவும்</SplitBySize>
+<Prebuffering>ஆரம்பத்தில் இருந்தே முழுப் பாடல்களையும் பதிவுசெய்யவும் (அதிக CPU பயன்பாடு)</Prebuffering>
+<SkipAds>விளம்பரங்களைப் பதிவுசெய்ய வேண்டாம் (90 நொடிக்கும் குறைவாக)</SkipAds>
+<DirectStreamRec>நேரடி ஓடை பதிவை அனுமதி (MP3 மற்றும் AACக்கு)</DirectStreamRec>
+<Fading>பதிவுகளுக்கு ஃபேட்-இன் மற்றும் ஃபேட்-அவுட்டைப் பயன்படுத்தவும்</Fading>
+</Rec>
+<Audio>
+<Title>ஒலி</Title>
+</Audio>
+<Network>
+<Title>வலைப்பின்னல்</Title>
+<ProxyAuth>பதிலாள் அங்கீகாரத்தைப் பயன்படுத்து</ProxyAuth>
+<UseProxy>இந்த பதிலாளைப் பயன்படுத்தவும்</UseProxy>
+<ProxyGroup>பதிலாள் அமைப்புகள்</ProxyGroup>
+<ProxyServer>சேவையகம்:</ProxyServer>
+<ProxyPort>துறைமுகம்:</ProxyPort>
+<ProxyPass>கடவுச்சொல்:</ProxyPass>
+<ProxyName>பெயர்:</ProxyName>
+</Network>
+<Hotkeys>
+<Restore>மீட்டமை</Restore>
+<RestoreQuestion>எல்லா சூடான விசைகளையும் அவற்றின் இயல்புநிலைக்கு மீட்டெடுக்க வேண்டுமா?</RestoreQuestion>
+<Title>சூடான விசைகள்</Title>
+<Start>இசைப்பதைத் தொடங்கு/நிறுத்து:</Start>
+<Mute>ஒலி முடக்கு/இயக்கு:</Mute>
+<Rec>பதிப்பை தொடங்கு/நிறுத்து:</Rec>
+<Hide>சாளரத்தை மறை/காண்பி:</Hide>
+<VolumeUp>ஒலி அளவு கூட்டு:</VolumeUp>
+<VolumeDown>ஒலி அளவு குறைக்கவும்:</VolumeDown>
+<Prev>முந்தைய நிலையம்:</Prev>
+<Next>அடுத்த நிலையம்:</Next>
+</Hotkeys>
+<Skins>
+<DropToInstall>சுருக்கப்பட்ட தோல் தொகுப் இங்கே விடுங்கள், அது நிறுவப்படும்.</DropToInstall>
+<MoreSkins>மேலும் தோல்கள்:</MoreSkins>
+</Skins>
+<Favorites>
+<Export>ஏற்றுமதி</Export>
+<Import>இறக்குமதி</Import>
+<Delete>அனைத்தையும் நீக்கு</Delete>
+<DeleteQuestion>உங்களுக்கு பிடித்தவை அனைத்தையும் நீக்க விரும்புகிறீர்களா?</DeleteQuestion>
+<ImportedOk>பிடித்தவை வெற்றிகரமாக இறக்குமதி செய்யப்பட்டன.</ImportedOk>
+<ImportedError>பிடித்தவைகளை இறக்குமதி செய்யும் போது பிழை ஏற்பட்டது.</ImportedError>
+<ExportedOk>பிடித்தவை வெற்றிகரமாக ஏற்றுமதி செய்யப்பட்டன.</ExportedOk>
+<ExportedError>பிடித்தவைகளை ஏற்றுமதி செய்யும் போது பிழை ஏற்பட்டது.</ExportedError>
+</Favorites>
 </Properties>
 <Favorites>
-<Title>Favorites</Title><Add>Add to favorites</Add><Remove>Remove from favorites</Remove><Empty>No stations selected yet</Empty><ShouldSelect>Please select a radio station first.</ShouldSelect><TooMany>Please remove some item first.</TooMany><AlreadyExist>It's already there!</AlreadyExist><MoveUp>Move selected favorite up</MoveUp>
+<Title>பிடித்தவை</Title>
+<Add>பிடித்தவைகளில் சேர்</Add>
+<Remove>பிடித்தவற்றிலிருந்து அகற்று</Remove>
+<Empty>இன்னும் எந்த நிலையங்களும் தேர்ந்தெடுக்கப்படவில்லை</Empty>
+<ShouldSelect>தயவுசெய்து முதலில் வானொலி நிலையத்தைத் தேர்ந்தெடுக்கவும்.</ShouldSelect>
+<TooMany>>தயவுசெய்து முதலில் சில உருப்படிகளை அகற்றவும்.</TooMany>
+<AlreadyExist>இது ஏற்கனவே உள்ளது!</AlreadyExist>
+<MoveUp>தேர்ந்தெடுக்கப்பட்ட பிடித்தவை மேலே நகர்த்தவும்</MoveUp>
 </Favorites>
 <EQUALIZER>
-<Title>Equalizer</Title><Off>Off</Off><Jazz>Jazz</Jazz><Pop>Pop</Pop><Rock>Rock</Rock><Classic>Classic</Classic>
+<Title>சமப்படுத்தி</Title>
+<Off>அணை</Off>
+<Jazz>சாசு</Jazz>
+<Pop>மேல்தோன்றும்</Pop>
+<Rock>பாறை</Rock>
+<Classic>பழைய</Classic>
 </EQUALIZER>
 <PictureArt>
-<Title>Cover</Title><Open>Open in Web</Open><Close>Close</Close><Disable>Disable</Disable><YouTube>Watch on YouTube</YouTube><BuyOnAmazon>Buy on Amazon</BuyOnAmazon>
+<Title>மேல்உறை</Title>
+<Open>இணையத்தில் திற</Open>
+<Close>மூடு</Close>
+<Disable>முடக்கு</Disable>
+<YouTube>யூடிப்பில் பார்க்கவும் </YouTube>
+<BuyOnAmazon>அமேசானில் வாங்கவும் </BuyOnAmazon>
 </PictureArt>
 <SleepTimer>
-<Off>Sleep timer off</Off><Title>Sleep timer</Title><Sleep5>Sleep in 5 min</Sleep5><Sleep10>Sleep in 10 min</Sleep10><Sleep15>Sleep in 15 min</Sleep15><Sleep20>Sleep in 20 min</Sleep20><Sleep30>Sleep in 30 min</Sleep30><Sleep60>Sleep in 60 min</Sleep60><Sleep90>Sleep in 90 min</Sleep90><Sleep120>Sleep in 120 min</Sleep120>
+<Off>தூங்கும் நேரம் அணை</Off>
+<Title>தூங்கும் நேரம்</Title>
+<Sleep5>5 நிமிடங்களில் தூங்கலாம்</Sleep5>
+<Sleep10>10 நிமிடங்களில் தூங்கலாம்</Sleep10>
+<Sleep15>15 நிமிடங்களில் தூங்கலாம்</Sleep15>
+<Sleep20>20 நிமிடங்களில் தூங்கலாம்</Sleep20>
+<Sleep30>30 நிமிடங்களில் தூங்கலாம்</Sleep30>
+<Sleep60>60 நிமிடங்களில் தூங்கலாம்</Sleep60>
+<Sleep90>90 நிமிடங்களில் தூங்கலாம்</Sleep90>
+<Sleep120>120 நிமிடங்களில் தூங்கலாம்</Sleep120>
 </SleepTimer>
 <SongsList>
-<MenuItem>Played Songs</MenuItem><ListTitle>Songs History</ListTitle><Song>Song</Song><Time>Time</Time>
+<MenuItem>இயக்கப்பட்ட பாடல்கள்</MenuItem>
+<ListTitle>பாடல்கள் வரலாறு</ListTitle>
+<Song>பாடல்</Song>
+<Time>நேரம்</Time>
 </SongsList>
 </XMLConfigSettings>
