@@ -39,8 +39,13 @@
 </MainWindow>
 <StationDlg>
 <CreateNewTitle>புதிய நிலையத்தை உருவாக்கு</CreateNewTitle>
+<StationDetailsTitle>நிலையத் தகவல்கள்</StationDetailsTitle>
 <Title>* தலைப்பு:</Title>
 <WebPage>இணையப்பக்கம்:</WebPage>
+<Description>விளக்கம்:</Description>
+<Genre>இலக்கியநடை:</Genre>
+<County>நாடு:</County>
+<SourceURL>ஆதர URL:</SourceURL>
 <Details>விவரங்கள்</Details>
 <AddNewStation>புதிய நிலையத்தைச் சேர்</AddNewStation>
 <DeleteStation>நிலையத்தை நீக்கு</DeleteStation>
@@ -50,20 +55,30 @@
 <CannotDelete>நீங்கள் முன் வரையறுக்கப்பட்ட நிலையங்களை நீக்க முடியாது.</CannotDelete>
 <RemoveFilter>வடிப்பானை அகற்று</RemoveFilter>
 <ShowOnlyMyStations>எனது நிலையங்களை மட்டும் காட்டு</ShowOnlyMyStations>
+<SameName>அதே பெயரில் மற்றொரு நிலையம் உள்ளது. தயவுசெய்து வேறொரு பெயரைத் தேர்ந்தெடுக்கவும்.</SameName>
+<SaveError>புதிய நிலையத்தை உருவாக்கும் போது சிக்கல் ஏற்பட்டது. மீண்டும் முயற்சிக்க விரும்புகிறீர்களா?</SaveError>
+<ChooseSource>ஒரு ஆதாரத்தைத் தேர்ந்தெடு</ChooseSource>
 <ColumnTitle>தலைப்பு</ColumnTitle>
 <ColumnCountry>நாடு</ColumnCountry>
 <ColumnGenre>வகை</ColumnGenre>
 <ColumnLanguage>மொழி</ColumnLanguage>
-<Genre>வகை:</Genre>
-<County>நாடு:</County>
-<SourceURL>ஆதர URL:</SourceURL>
-<SameName>அதே பெயரில் மற்றொரு நிலையம் உள்ளது. தயவுசெய்து வேறொரு பெயரைத் தேர்ந்தெடுக்கவும்.</SameName>
-<SaveError>புதிய நிலையத்தை உருவாக்கும் போது சிக்கல் ஏற்பட்டது. மீண்டும் முயற்சிக்க விரும்புகிறீர்களா?</SaveError>
-<ChooseSource>ஒரு ஆதாரத்தைத் தேர்ந்தெடு</ChooseSource>
-<StationDetailsTitle>நிலைய விவரங்கள்</StationDetailsTitle>
-<Description>விளக்கம்:</Description>
-<SongsList>இசைக்கப்பட்ட பாடல்கள்</SongsList>
 </StationDlg>
+<SongsList>
+<MenuItem>இசைக்கப்பட்ட பாடல்கள்</MenuItem>
+<ListTitle>பாடல்கள் வரலாறு</ListTitle>
+<Song>பாடல்</Song>
+<Time>நேரம்</Time>
+</SongsList>
+<Favorites>
+<Title>பிடித்தவை</Title>
+<Add>பிடித்தவைகளில் சேர்</Add>
+<Remove>பிடித்தவற்றிலிருந்து அகற்று</Remove>
+<Empty>இன்னும் எந்த நிலையங்களும் தேர்ந்தெடுக்கப்படவில்லை</Empty>
+<ShouldSelect>தயவுசெய்து முதலில் வானொலி நிலையத்தைத் தேர்ந்தெடுக்கவும்.</ShouldSelect>
+<TooMany>>தயவுசெய்து முதலில் சில உருப்படிகளை அகற்றவும்.</TooMany>
+<AlreadyExist>இது ஏற்கனவே உள்ளது!</AlreadyExist>
+<MoveUp>தேர்ந்தெடுக்கப்பட்ட பிடித்தவை மேலே நகர்த்தவும்</MoveUp>
+</Favorites>
 <Message>
 <StopRecording>பதிவுசெய்தல் செயலில் உள்ளது. பதிவுசெய்தலை நிறுத்த வேண்டுமா? </StopRecording>
 <CannotStartRecording>பதிவைத் தொடங்க முடியவில்லை. அனேகமாக போதிய இடமில்லை அல்லது பிரத்யேக கோப்புறையில் சிக்கல் இருக்கலாம்</CannotStartRecording>
@@ -166,16 +181,6 @@
 <ExportedError>பிடித்தவைகளை ஏற்றுமதி செய்யும் போது பிழை ஏற்பட்டது.</ExportedError>
 </Favorites>
 </Properties>
-<Favorites>
-<Title>பிடித்தவை</Title>
-<Add>பிடித்தவைகளில் சேர்</Add>
-<Remove>பிடித்தவற்றிலிருந்து அகற்று</Remove>
-<Empty>இன்னும் எந்த நிலையங்களும் தேர்ந்தெடுக்கப்படவில்லை</Empty>
-<ShouldSelect>தயவுசெய்து முதலில் வானொலி நிலையத்தைத் தேர்ந்தெடுக்கவும்.</ShouldSelect>
-<TooMany>>தயவுசெய்து முதலில் சில உருப்படிகளை அகற்றவும்.</TooMany>
-<AlreadyExist>இது ஏற்கனவே உள்ளது!</AlreadyExist>
-<MoveUp>தேர்ந்தெடுக்கப்பட்ட பிடித்தவை மேலே நகர்த்தவும்</MoveUp>
-</Favorites>
 <EQUALIZER>
 <Title>சமப்படுத்தி</Title>
 <Off>அணை</Off>
@@ -204,10 +209,5 @@
 <Sleep90>90 நிமிடங்களில் தூங்கலாம்</Sleep90>
 <Sleep120>120 நிமிடங்களில் தூங்கலாம்</Sleep120>
 </SleepTimer>
-<SongsList>
-<MenuItem>இயக்கப்பட்ட பாடல்கள்</MenuItem>
-<ListTitle>பாடல்கள் வரலாறு</ListTitle>
-<Song>பாடல்</Song>
-<Time>நேரம்</Time>
-</SongsList>
+
 </XMLConfigSettings>
