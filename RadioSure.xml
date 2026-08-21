@@ -65,7 +65,7 @@
 <MinimizeToTray>1</MinimizeToTray>
 <ShowNotifications>1</ShowNotifications>
 <LastUpdateCheck>2026/08/21/21/01</LastUpdateCheck>
-</General>
+<Normalization>1</Normalization><GlobalHotkeys>1</GlobalHotkeys></General>
 <History>
 <Item-1>
 <Source>http://s6.voscast.com:7108/;?1448044008632.mp3</Source>
@@ -248,13 +248,13 @@
 </Country></Item-26></History>
 <Advanced>
 <Skin>Standard</Skin>
-<Always_show_title>0</Always_show_title>
+<Always_show_title>1</Always_show_title>
 <Sort_favorites>1</Sort_favorites>
 <Sync_favorites>1</Sync_favorites>
 <Group_favorites>0</Group_favorites>
 <Mute_on_session_lock>1</Mute_on_session_lock>
-<One_instance>0</One_instance>
-</Advanced>
+<One_instance>1</One_instance>
+<Device>0</Device><Network><UseProxy>0</UseProxy><ProxyServer></ProxyServer><ProxyPort></ProxyPort><UseProxyAuth>0</UseProxyAuth><ProxyName></ProxyName><ProxyPass></ProxyPass></Network></Advanced>
 <Recordings>
 <SplitByTracks>1</SplitByTracks>
 <Bitrate>0</Bitrate>
@@ -262,7 +262,7 @@
 <DontWriteExist>0</DontWriteExist>
 <Prebuffering>0</Prebuffering>
 <SkipAds>0</SkipAds>
-<DirectStreamRec>0</DirectStreamRec>
+<DirectStreamRec>1</DirectStreamRec>
 <Fading>1</Fading>
 </Recordings>
 <Favorites>
