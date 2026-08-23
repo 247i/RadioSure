@@ -1,3 +1,6 @@
 
 .DS_Store
 Log/*
+Lang\*
+/Lang/icons
+/Lang
