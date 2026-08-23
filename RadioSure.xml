@@ -3,16 +3,16 @@
 <General>
 <BufferSize>4</BufferSize>
 <LastPlayed>
-<Source>http://cp12.serverse.com/proxy/vasanthamfm?mp=/stream</Source>
-<Title>Vasantham FM</Title>
-<Genre>Pop</Genre>
+<Source>http://192.99.170.8:5756</Source>
+<Title>Abinayam FM</Title>
+<Genre>Asian</Genre>
 <Language>Tamil</Language>
-<Country>Sri Lanka</Country>
+<Country>Canada</Country>
 </LastPlayed>
 <Window>
 <Collapsed>
-<x>2</x>
-<y>752</y>
+<x>0</x>
+<y>578</y>
 </Collapsed>
 <Expanded>
 <x>1</x>
@@ -25,9 +25,9 @@
 <Expanded>0</Expanded>
 <OnTop>0</OnTop>
 <Language>தமிழ்.lng</Language>
-<Filter>tamil</Filter>
-<Filter_0>tamil</Filter_0>
-<Filter_1></Filter_1>
+<Filter></Filter>
+<Filter_0>g</Filter_0>
+<Filter_1>tamil</Filter_1>
 <Filter_2></Filter_2>
 <Filter_3></Filter_3>
 <Filter_4></Filter_4>
@@ -68,184 +68,181 @@
 <Normalization>1</Normalization><GlobalHotkeys>1</GlobalHotkeys></General>
 <History>
 <Item-1>
-<Source>http://cp12.serverse.com/proxy/vasanthamfm?mp=/stream</Source>
-<Title>Vasantham FM</Title>
-<Genre>Pop</Genre>
+<Source>http://192.99.170.8:5756</Source>
+<Title>Abinayam FM</Title>
+<Genre>Asian</Genre>
 <Language>Tamil</Language>
-<Country>Sri Lanka</Country>
+<Country>Canada</Country>
 </Item-1>
 <Item-2>
+<Source>http://centova.oxines.com/tunein/vaanmalar.pls</Source>
+<Title>Vaanmalar Fm</Title>
+<Genre>Christian</Genre>
+<Language>Tamil</Language>
+<Country>India</Country>
+</Item-2>
+<Item-3>
+<Source>http://wavesofpower.com/live_radio/play2.asx</Source>
+<Title>Waves Of Power</Title>
+<Genre>Christian</Genre>
+<Language>Tamil</Language>
+<Country>Canada</Country>
+</Item-3>
+<Item-4>
 <Source>http://206.190.133.196:7044/thayagam128K</Source>
 <Title>Thayagam Tamil Radio</Title>
 <Genre>Variety</Genre>
 <Language>Tamil</Language>
 <Country>Australia</Country>
-</Item-2>
-<Item-3>
+</Item-4>
+<Item-5>
+<Source>http://38.96.148.18:6150/;stream.nsv</Source>
+<Title>GTBC FM</Title>
+<Genre>Talk-News</Genre>
+<Language>Tamil</Language>
+<Country>United Kingdom</Country>
+</Item-5>
+<Item-6>
+<Source>http://37.59.37.139:8962/</Source>
+<Title>Idhayam FM</Title>
+<Genre>Pop</Genre>
+<Language>Tamil</Language>
+<Country>India</Country>
+</Item-6>
+<Item-7>
+<Source>http://live.kalasam.com:8084</Source>
+<Title>Kalasam</Title>
+<Genre>Musicals</Genre>
+<Language>Tamil</Language>
+<Country>Canada</Country>
+</Item-7>
+<Item-8>
+<Source>http://67.225.164.64:8010</Source>
+<Title>Anbin FM</Title>
+<Genre>Christian</Genre>
+<Language>Tamil</Language>
+<Country>India</Country>
+</Item-8>
+<Item-9>
+<Source>http://82.237.64.216:8350</Source>
+<Title>Dream Share FM</Title>
+<Genre>Community</Genre>
+<Language>Tamil</Language>
+<Country>Sri Lanka</Country>
+</Item-9>
+<Item-10>
+<Source>http://listen.radionomy.com:80/DJSiran-Tamil-FM</Source>
+<Title>DJSiran.FM - Tamil</Title>
+<Genre>World/Folk</Genre>
+<Language>Tamil</Language>
+<Country>Sri Lanka</Country>
+</Item-10>
+<Item-11>
+<Source>http://listen.radionomy.com:80/DJSiran-Gold-FM</Source>
+<Title>DJSiran.FM - Gold</Title>
+<Genre>Bollywood</Genre>
+<Language>Tamil</Language>
+<Country>Sri Lanka</Country>
+</Item-11>
+<Item-12>
+<Source>http://cp12.serverse.com/proxy/vasanthamfm?mp=/stream</Source>
+<Title>Vasantham FM</Title>
+<Genre>Pop</Genre>
+<Language>Tamil</Language>
+<Country>Sri Lanka</Country>
+</Item-12>
+<Item-13>
 <Source>https://playerservices.streamtheworld.com/api/livestream-redirect/PURADSIFMAAC.aac</Source>
 <Title>Puradsi FM</Title>
 <Genre>Asian</Genre>
 <Language>Tamil</Language>
 <Country>Australia</Country>
-</Item-3>
-<Item-4>
+</Item-13>
+<Item-14>
 <Source>http://66.55.145.43:7479/;</Source>
 <Title>GSC Radio</Title>
 <Genre>Christian</Genre>
 <Language>Tamil</Language>
 <Country>India</Country>
-</Item-4>
-<Item-5>
+</Item-14>
+<Item-15>
 <Source>http://sivankovil.no-ip.org:8000/;</Source>
 <Title>Arulmihu Sivan Kovil</Title>
 <Genre>World/Folk</Genre>
 <Language>Hindi</Language>
 <Country>Switzerland</Country>
-</Item-5>
-<Item-6>
+</Item-15>
+<Item-16>
 <Source>http://janus.shoutca.st:9512/stream</Source>
 <Title>AOF FM</Title>
 <Genre>Christian</Genre>
 <Language>Tamil</Language>
 <Country>India</Country>
-</Item-6>
-<Item-7>
+</Item-16>
+<Item-17>
 <Source>http://192.99.170.8:5756/;</Source>
 <Title>Abinayam FM Canada</Title>
 <Genre>Asian</Genre>
 <Language>Tamil</Language>
 <Country>Denmark</Country>
-</Item-7>
-<Item-8>
+</Item-17>
+<Item-18>
 <Source>https://azura.shoutca.st/radio/8430/healerradio.aac</Source>
 <Title>Healer Radio</Title>
 <Genre>Christian-Gospel</Genre>
 <Language>Tamil</Language>
 <Country>Ireland</Country>
-</Item-8>
-<Item-9>
+</Item-18>
+<Item-19>
 <Source>http://sc2.ddns.net:9116/stream</Source>
 <Title>Thenral World Radio</Title>
 <Genre>Asian</Genre>
 <Language>Tamil</Language>
 <Country>Germany</Country>
-</Item-9>
-<Item-10>
+</Item-19>
+<Item-20>
 <Source>http://s6.voscast.com:7108/;?1448044008632.mp3</Source>
 <Title>WORLDTAMILFM MAURITIUS</Title>
 <Genre>Public Radio</Genre>
 <Language>English</Language>
 <Country>Mauritius</Country>
-</Item-10>
-<Item-11>
+</Item-20>
+<Item-21>
 <Source>http://38.96.148.226:6176/</Source>
 <Title>IBC Tamil</Title>
 <Genre>Asian</Genre>
 <Language>Tamil</Language>
 <Country>United Kingdom</Country>
-</Item-11>
-<Item-12>
+</Item-21>
+<Item-22>
 <Source>http://s1.voscast.com:9038/</Source>
 <Title>Athavan Radio</Title>
 <Genre>Variety</Genre>
 <Language>Tamil</Language>
 <Country>United Kingdom</Country>
-</Item-12>
-<Item-13>
+</Item-22>
+<Item-23>
 <Source>http://shaincast.caster.fm:47814/listen.mp3</Source>
 <Title>Ruu Radio Int</Title>
 <Genre>Asian</Genre>
 <Language>Tamil</Language>
 <Country>Sri Lanka</Country>
-</Item-13>
-<Item-14>
+</Item-23>
+<Item-24>
 <Source>http://provisioning.streamtheworld.com/pls/OLI968FM_PREM.pls</Source>
 <Title>RS Oli 96.8 FM</Title>
 <Genre>Asian</Genre>
 <Language>Tamil</Language>
 <Country>Singapore</Country>
-</Item-14>
-<Item-15>
+</Item-24>
+<Item-25>
 <Source>http://5.135.154.91:8302/</Source>
 <Title>tsrlive.com</Title>
 <Genre>Pop</Genre>
 <Language>Tamil</Language>
 <Country>India</Country>
-</Item-15>
-<Item-16>
-<Source>http://209.133.216.3:7071/;stream.mp3</Source>
-<Title>Sooriyan FM -  103.4 / 103.6 FM</Title>
-<Genre>Pop</Genre>
-<Language>Tamil</Language>
-<Country>Sri Lanka</Country>
-</Item-16>
-<Item-17>
-<Source>http://220.247.227.6:8000/Tnsstream</Source>
-<Title>SLBC Tamil National Service</Title>
-<Genre>Public Radio</Genre>
-<Language>Tamil</Language>
-<Country>Sri Lanka</Country>
-</Item-17>
-<Item-18>
-<Source>http://s3.voscast.com:8402/;</Source>
-<Title>Radio Varnamfm 90.4 | 90.6</Title>
-<Genre>Hit Radio - Rock/Top 40</Genre>
-<Language>Hindi</Language>
-<Country>Sri Lanka</Country>
-</Item-18>
-<Item-19>
-<Source>http://playerservices.streamtheworld.com/pls/HITAAC.pls</Source>
-<Title>Radio Hit 96.7 FM</Title>
-<Genre>Hits</Genre>
-<Language>Malayalam</Language>
-<Country>United Arab Emirates</Country>
-</Item-19>
-<Item-20>
-<Source>http://220.247.227.20:8000/Threndralstream</Source>
-<Title>SLBC Thendral FM</Title>
-<Genre>Adult Contemporary</Genre>
-<Language>Tamil</Language>
-<Country>Sri Lanka</Country>
-</Item-20>
-<Item-21>
-<Source>http://91.82.85.44:9004/</Source>
-<Title>Tamil Aruvi</Title>
-<Genre>Musicals</Genre>
-<Language>Tamil</Language>
-<Country>India</Country>
-</Item-21>
-<Item-22>
-<Source>http://streams.radio.co/s790fe269d/listen</Source>
-<Title>Thuthi FM</Title>
-<Genre>Christian</Genre>
-<Language>Tamil</Language>
-<Country>Norway</Country>
-</Item-22>
-<Item-23>
-<Source>http://66.55.145.43:7364/stream/1/</Source>
-<Title>Vaanmalar Fm</Title>
-<Genre>Christian</Genre>
-<Language>Tamil</Language>
-<Country>India</Country>
-</Item-23>
-<Item-24>
-<Source>http://s2.voscast.com:12136/;stream.mp3</Source>
-<Title>vettrioli.fm</Title>
-<Genre>Bollywood</Genre>
-<Language>Tamil</Language>
-<Country>United Kingdom</Country>
-</Item-24>
-<Item-25>
-<Source>http://s3.voscast.com:8408/;</Source>
-<Title>Radio Siyatha FM</Title>
-<Genre>Pop</Genre>
-<Language>Tamil</Language>
-<Country>Sri Lanka</Country>
 </Item-25>
-<Item-26><Source>http://prclive1.listenon.in:9948/;</Source><Title>Radio City - Tamil Gold</Title><Genre>Hits</Genre><Language>Tamil</Language><Country>India</Country></Item-26><Item-27><Source>http://stream.arulvakku.com/radio/8000/radio.mp3</Source><Title>Radio Arulvakku</Title><Genre>Christian</Genre><Language>Tamil</Language><Country>India</Country></Item-27><Item-28><Source>http://178.32.62.163:8528/;</Source><Title>Idhayam FM</Title><Genre>Pop</Genre><Language>Tamil</Language><Country>India</Country></Item-28><Item-29><Source>http://www.977music.com/tunein/web/smoothjazz.asx</Source><Title>.977 The Smooth Jazz Channel (WMA 64k)</Title><Genre>
-</Genre><Language>
-</Language><Country>
-</Country></Item-29></History>
+<Item-26><Source>http://209.133.216.3:7071/;stream.mp3</Source><Title>Sooriyan FM -  103.4 / 103.6 FM</Title><Genre>Pop</Genre><Language>Tamil</Language><Country>Sri Lanka</Country></Item-26><Item-27><Source>http://220.247.227.6:8000/Tnsstream</Source><Title>SLBC Tamil National Service</Title><Genre>Public Radio</Genre><Language>Tamil</Language><Country>Sri Lanka</Country></Item-27><Item-28><Source>http://s3.voscast.com:8402/;</Source><Title>Radio Varnamfm 90.4 | 90.6</Title><Genre>Hit Radio - Rock/Top 40</Genre><Language>Hindi</Language><Country>Sri Lanka</Country></Item-28><Item-29><Source>http://playerservices.streamtheworld.com/pls/HITAAC.pls</Source><Title>Radio Hit 96.7 FM</Title><Genre>Hits</Genre><Language>Malayalam</Language><Country>United Arab Emirates</Country></Item-29><Item-30><Source>http://220.247.227.20:8000/Threndralstream</Source><Title>SLBC Thendral FM</Title><Genre>Adult Contemporary</Genre><Language>Tamil</Language><Country>Sri Lanka</Country></Item-30></History>
 <Advanced>
 <Skin>Panter</Skin>
 <Always_show_title>1</Always_show_title>
