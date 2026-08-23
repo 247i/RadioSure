@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--  Skin by Phyloo  -->
+<!-- 17.04.2009. -->
+<XMLConfigSettings>
+	<Window>
+		<Frame>0</Frame>
+		<x>0</x>
+		<y>0</y>
+		<width>610</width>
+		<height>24</height>
+		<Background>bg2.png</Background>
+		<Rounded>17</Rounded>
+	</Window>
+
+	<OnTop>		
+		<x>534</x>
+		<y>-1</y>
+		<width>24</width>
+		<height>24</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>OnTop.png</Normal><Hot>OnTop-hot.png</Hot><Pressed>OnTop-pressed.png</Pressed></Image><AltImage><Normal>OnTop-2.png</Normal><Hot>OnTop-2-hot.png</Hot><Pressed>OnTop-2-pressed.png</Pressed></AltImage></OnTop>
+	
+	<Minimize>
+		<x>554</x>
+		<y>1</y>
+		<width>20</width>
+		<height>20</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>Minimize.png</Normal><Hot>Minimize-hot.png</Hot><Pressed>Minimize-pressed.png</Pressed></Image></Minimize>	
+	
+	<Expand>
+		<x>572</x>
+		<y>1</y>
+		<width>20</width>
+		<height>20</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>Expand.png</Normal><Hot>Expand-hot.png</Hot><Pressed>Expand-pressed.png</Pressed></Image></Expand>	
+	
+	<Exit>
+		<x>590</x>
+		<y>1</y>
+		<width>20</width>
+		<height>20</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>Exit.png</Normal><Hot>Exit-hot.png</Hot><Pressed>Exit-pressed.png</Pressed></Image></Exit>
+
+	<Favorites>
+		<x>436</x>
+		<y>4</y>	
+		<width>15</width>
+		<height>15</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>Favorites.png</Normal><Hot>Favorites-hot.png</Hot><Pressed>Favorites-pressed.png</Pressed></Image></Favorites>
+
+	<Options>
+		<x>4</x>
+		<y>5</y>
+		<width>12</width>
+		<height>12</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>Options.png</Normal><Hot>Options-hot.png</Hot><Pressed>Options-pressed.png</Pressed></Image></Options>
+	
+	<Rec>
+		<x>331</x>
+		<y>4</y>
+		<width>15</width>
+		<height>15</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>Rec.png</Normal><Hot>Rec-hot.png</Hot><Pressed>Rec-pressed.png</Pressed></Image><AltImage><Normal>Rec-2.png</Normal><Hot>Rec-2-hot.png</Hot><Pressed>Rec-2-pressed.png</Pressed></AltImage></Rec>
+	
+	<Next>
+		<x>411</x>
+		<y>2</y>
+		<width>18</width>
+		<height>18</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>Next.png</Normal><Hot>Next-hot.png</Hot><Pressed>Next-pressed.png</Pressed></Image></Next>
+	
+	<Back>
+		<x>353</x>
+		<y>2</y>
+		<width>18</width>
+		<height>18</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>Back.png</Normal><Hot>Back-hot.png</Hot><Pressed>Back-pressed.png</Pressed></Image></Back>
+	
+	<Play>
+		<x>380</x>
+		<y>0</y>
+		<width>23</width>
+		<height>23</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>Play.png</Normal><Hot>Play-hot.png</Hot><Pressed>Play-pressed.png</Pressed></Image><AltImage><Normal>Play-2.png</Normal><Hot>Play-2-hot.png</Hot><Pressed>Play-2-pressed.png</Pressed></AltImage></Play>
+	
+
+
+
+	<Spectrum>
+		<x>18</x>
+		<y>2</y>
+		<width>100</width>
+		<height>20</height>
+		<visible>1</visible>
+		<BarColorTop>255,230,230,230</BarColorTop>
+		<BarColorBottom>255,50,100,190</BarColorBottom>
+		<BkColorTop>0,255,255,0</BkColorTop>
+		<BkColorBottom>0,255,0,0</BkColorBottom>
+		<BarLineColor>0,130,190,250</BarLineColor>
+		<Bars>18</Bars>
+		<GlassLevel>0</GlassLevel>
+		<Frame>0</Frame>
+	</Spectrum>
+
+
+	
+	<Volume>
+		<x>470</x>
+		<y>-10</y>
+		<width>67</width>
+		<height>30</height>
+		<visible>1</visible>
+		<ImageThumb>VolumeThumbC.png</ImageThumb>
+		<ImageThumbHot>VolumeThumbHotC.png</ImageThumbHot>
+		<ImageChannel>VolumeChannelC.png</ImageChannel>
+	<ThumbSize>22</ThumbSize></Volume>
+
+	<Mute>
+		<x>460</x>
+		<y>4</y>
+		<width>15</width>
+		<height>15</height>
+		<visible>1</visible>
+	<TextColor>-1</TextColor><Image><Normal>Mute.png</Normal><Hot>Mute-hot.png</Hot><Pressed>Mute-pressed.png</Pressed></Image><AltImage><Normal>Mute-2.png</Normal><Hot>Mute-2-hot.png</Hot><Pressed>Mute-2-pressed.png</Pressed></AltImage></Mute>
+	
+	
+	<RotatedInfo>
+		<TextColor>255,190,210,220</TextColor>
+		<GlowColor>0,100,100,100</GlowColor>
+		<x>120</x>
+		<y>5</y>
+		<width>200</width>
+		<height>13</height>		
+		<BkColor>-1</BkColor>
+		<visible>1</visible>
+	<TextSize>13</TextSize><TextAlign>-1</TextAlign></RotatedInfo>
+	
+	
+	
+	
+	<Filter>
+		<x>320</x>
+		<y>0</y>
+		<width>200</width>
+		<height>12</height>
+		<visible>0</visible>
+	</Filter>
+	
+	<FilterLabel>
+		<x>321</x>
+		<y>0</y>
+		<width>180</width>
+		<height>12</height>
+		<visible>0</visible>
+		
+<TextColor>-1</TextColor><Image><Normal>FilterLabel.png</Normal><Hot>FilterLabel-hot.png</Hot><Pressed>FilterLabel-pressed.png</Pressed></Image></FilterLabel>
+
+	
+	<FoundNumber>
+		<TextColor>255,155,215,255</TextColor>
+		<GlowColor>0,0,0,0</GlowColor>
+		<x>721</x>
+		<y>59</y>
+		<width>120</width>
+		<height>13</height>
+		<visible>0</visible>
+		<BkColor>-1</BkColor>
+	<TextSize>13</TextSize><TextAlign>-1</TextAlign></FoundNumber>
+	
+	
+
+<Author><Name>Phyloo</Name><URL>...</URL></Author><Sources><x>9</x><y>244</y><width>131</width><height>26</height><TextColor>-1</TextColor><visible>1</visible><Image><Normal>Sources.png</Normal><Hot>Sources-hot.png</Hot><Pressed>Sources-pressed.png</Pressed></Image></Sources><List><HighLightColor>-1</HighLightColor><HighLightTextColor>-1</HighLightTextColor><TextColor>-1</TextColor><BkColor>-1</BkColor><Transparent>0</Transparent><x>11</x><y>33</y><width>369</width><height>153</height><visible>1</visible></List><BufferIndicator><x>86</x><y>229</y><width>48</width><height>11</height><visible>1</visible></BufferIndicator><SongTitle><BkColor>-1</BkColor><TextColor>-1</TextColor><GlowColor>-1</GlowColor><x>0</x><y>0</y><width>0</width><height>0</height><visible>1</visible><TextSize>13</TextSize><TextAlign>-1</TextAlign></SongTitle><Status><BkColor>-1</BkColor><TextColor>-1</TextColor><GlowColor>-1</GlowColor><x>11</x><y>210</y><width>126</width><height>13</height><visible>1</visible><TextSize>13</TextSize><TextAlign>-1</TextAlign></Status><BufferInfo><BkColor>-1</BkColor><TextColor>-1</TextColor><GlowColor>-1</GlowColor><x>11</x><y>228</y><width>71</width><height>13</height><visible>1</visible><TextSize>13</TextSize><TextAlign>-1</TextAlign></BufferInfo></XMLConfigSettings>
